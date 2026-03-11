@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOMMUS | Project Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-blue: #ddd5f1;
+            --accent-yellow: #0056b3;
+            --bg-dark: #1e1e1e;
+            --card-bg: #2d2d30;
+            --text-white: #ffffff;
+            --text-gray: #b0b0b0;
+            --success: #107C10;
+            --warning: #E6A817;
+            --progress-bg: #444;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-white);
+            padding: 40px;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid var(--primary-blue);
+            padding-bottom: 20px;
+        }
+
+        .logo-container h1 {
+            font-size: 2.5rem;
+            color: var(--accent-yellow);
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+
+        .logo-container p {
+            color: var(--text-gray);
+            font-size: 0.9rem;
+        }
+
+        .status-badge {
+            background-color: var(--success);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 5px solid var(--primary-blue);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h2 {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: var(--text-white);
+            display: flex;
+            align-items: center;
+        }
+
+        .card h2 span {
+            margin-right: 10px;
+        }
+
+        /* Progress Bars */
+        .progress-item {
+            margin-bottom: 15px;
+        }
+
+        .progress-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            margin-bottom: 5px;
+        }
+
+        .progress-bar-container {
+            background-color: var(--progress-bg);
+            height: 8px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background-color: var(--accent-yellow);
+            border-radius: 4px;
+        }
+
+        /* Activities list */
+        .activity-list {
+            list-style: none;
+        }
+
+        .activity-item {
+            padding: 10px 0;
+            border-bottom: 1px solid #444;
+            font-size: 0.85rem;
+        }
+
+        .activity-item:last-child {
+            border-bottom: none;
+        }
+
+        .activity-date {
+            color: var(--warning);
+            font-weight: 600;
+            margin-right: 10px;
+        }
+
+        /* Links */
+        .links-container {
+            margin-top: 40px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn-link {
+            text-decoration: none;
+            color: var(--bg-dark);
+            background-color: var(--accent-yellow);
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: opacity 0.3s;
+        }
+
+        .btn-link:hover {
+            opacity: 0.8;
+        }
+
+        /* Gallery Styles */
+        .gallery-card {
+            grid-column: 1 / -1;
+            background-color: var(--card-bg);
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 5px solid var(--accent-yellow);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            text-align: center;
+        }
+
+        .gallery-btn {
+            width: 100%;
+            padding: 15px;
+            background-color: var(--primary-blue);
+            color: var(--accent-yellow);
+            border: 2px solid var(--accent-yellow);
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+        }
+
+        .gallery-btn:hover {
+            background-color: var(--accent-yellow);
+            color: var(--primary-blue);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(255, 235, 0, 0.3);
+        }
+
+        @media (max-width: 1000px) {
+            body {
+                padding: 20px;
+            }
+
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            padding-top: 50px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.9);
+            cursor: zoom-out;
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 85vh;
+            border-radius: 8px;
+            box-shadow: 0 0 20px var(--accent-yellow);
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: var(--accent-yellow);
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <h1>TOMMUS <span style="color: white; font-weight: 300;">IMAGE SYSTEM</span></h1>
+            <p>Project Dashboard Development | v0.0.2</p>
+        </div>
+        <div class="status-badge">DESENVOLVIMENTO ATIVO</div>
+    </header>
+
+    <div class="dashboard-grid">
+        <!-- Feature Status -->
+        <div class="card">
+            <h2><span>📑</span> Maturidade de Funcionalidades</h2>
+
+            <div class="progress-item">
+                <div class="progress-label"><span>Scan Modo B</span> <span>95%</span></div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 95%;"></div>
+                </div>
+            </div>
+
+            <div class="progress-item">
+                <div class="progress-label"><span>Controles TGC/Ganho</span> <span>100%</span></div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 100%;"></div>
+                </div>
+            </div>
+
+            <div class="progress-item">
+                <div class="progress-label"><span>Controle Tomografia</span> <span>90%</span></div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+            </div>
+
+            <div class="progress-item">
+                <div class="progress-label"><span>Exportação Modo Cine</span> <span>80%</span></div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 80%;"></div>
+                </div>
+            </div>
+
+            <div class="progress-item">
+                <div class="progress-label"><span>Modo Doppler</span> <span>30%</span></div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 30%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Activities -->
+        <div class="card">
+            <h2><span>🕒</span> Atividades Recentes</h2>
+            <ul class="activity-list">
+                <li class="activity-item"><span class="activity-date">11/03</span> Atualização técnica v0.0.6 e
+                    auditoria.</li>
+                <li class="activity-item"><span class="activity-date">10/03</span> Implementação das funcionalidades do
+                    modo Doppler.</li>
+                <li class="activity-item"><span class="activity-date">09/03</span> Otimização dos controles de movimento
+                    Linear, Vertical, Rotacional.</li>
+            </ul>
+        </div>
+
+        <!-- Future Activities (Roadmap) -->
+        <div class="card" style="border-left-color: var(--accent-yellow);">
+            <h2><span>🚀</span> Próximos Passos</h2>
+            <ul class="activity-list">
+                <li class="activity-item"><span class="activity-date">*</span> Finalização da integração completa
+                    do
+                    Doppler.</li>
+                <li class="activity-item"><span> class="activity-date">*</span> Implementação da funcionalidade da
+                    profundidade focal</li>
+                <li class="activity-item"><span> class="activity-date">*</span> Implementação do modos de aquisição (A e
+                    M)</li>
+                <li class="activity-item"><span class="activity-date">*</span> Implementação do Gráfico de RF</li>
+                <li class="activity-item"><span class="activity-date">*</span> Implemnetar tela para o modo Scan -
+                    imagem volumétrica</li>
+                <li class="activity-item"><span class="activity-date">*</span> Implemnetar controle de movimento para o
+                    Modo Scan</li>
+                <li class="activity-item"><span class="activity-date">*</span> Implementação de logs de sistema
+                    para
+                    diagnóstico.</li>
+                <li class="activity-item"><span class="activity-date">*</span> Migração progressiva para MVVM
+                    (MainWindow refactoring).</li>
+                <li class="activity-item"><span class="activity-date">*</span> Validação de Regex para campos de
+                    paciente e CPF.</li>
+
+            </ul>
+        </div>
+        <!-- Galeria de imagens-->
+        <div class="gallery-card">
+            <h2><span>🖼️</span> Imagens da Interface</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <button class="gallery-btn" data-src="../ImagensRelatorio/login.png">Tela de Login</button>
+                </div>
+                <div class="gallery-item">
+                    <button class="gallery-btn" data-src="../ImagensRelatorio/ScreenPrincipal.png">Interface
+                        Principal</button>
+                </div>
+                <div class="gallery-item">
+                    <button class="gallery-btn" data-src="../ImagensRelatorio/TomograpyControls.png">Controles de
+                        Tomografia</button>
+                </div>
+                <div class="gallery-item">
+                    <button class="gallery-btn" data-src="../ImagensRelatorio/ScreenSettings.png">Configurações</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technical Debt -->
+        <div class="card" style="border-left-color: var(--warning);">
+            <h2><span>⚠️</span> Alertas Técnicos</h2>
+            <ul class="activity-list">
+                <li class="activity-item"><strong>MainWindow:</strong> Supera 5000 linhas de código (Prioridade de
+                    refatoração).</li>
+                <li class="activity-item"><strong>COM Objects:</strong> Monitoramento de ReleaseComObject necessário.
+                </li>
+                <li class="activity-item"><strong>Thread Affinity:</strong> Dispatcher.Invoke requer otimização.</li>
+            </ul>
+        </div>
+
+        <!-- Stack & Environment -->
+        <div class="card">
+            <h2><span>🛠️</span> Stack Tecnológica</h2>
+            <ul class="activity-list" style="font-size: 0.8rem;">
+                <li class="activity-item"><strong>Framework:</strong> .NET 4.7.2 / WPF</li>
+                <li class="activity-item"><strong>Hardware:</strong> Telemed Usgfw2Lib</li>
+                <li class="activity-item"><strong>Serial:</strong> ESP32 Communication</li>
+                <li class="activity-item"><strong>Fonts:</strong> Poppins, Extenda</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="links-container">
+        <a href="Project_Audit_Report.md" class="btn-link">Relatório de Auditoria (MD)</a>
+        <a href="../RelatorioAtividadesDiaria.md" class="btn-link">Atividades Diárias</a>
+        <a href="https://github.com/raquelpantojo/tomus_Interface" target="_blank" class="btn-link"
+            style="background-color: #9c8fbd; color: white;">Repositório GitHub</a>
+        <a href="https://pt.overleaf.com/read/hsqfwztqnngr#271e29" target="_blank" class="btn-link"
+            style="background-color: 9c8fbd; color: white;">Relatório de Atividades</a>
+    </div>
+
+    <!-- Modal for Enlarged Images -->
+    <div id="imageModal" class="modal" onclick="this.style.display='none'">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("imageModal");
+        var modalImg = document.getElementById("img01");
+
+        // Get all gallery buttons
+        var buttons = document.querySelectorAll('.gallery-btn');
+
+        buttons.forEach(btn => {
+            btn.onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.getAttribute('data-src');
+            }
+        });
+    </script>
+</body>
+
+</html>
