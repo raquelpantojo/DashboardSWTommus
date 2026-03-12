@@ -1,6 +1,6 @@
 ## 📋 Relatório de Atividades - Fevereiro 2026
 
-## 
+
 
 ### 🗓️ Semana 01 (02/02 a 06/02)
 
@@ -8,39 +8,29 @@
 
 ### 02-02-2026
 
-Dia de integração
-
-Reunião com o professor Adilton - definição de trabalho, levantamento de alguns requisitos necessários para aquisição das imagens
-
-
-
-
+* Dia de integração
+* Reunião com o professor Adilton - definição de trabalho, levantamento de alguns requisitos necessários para aquisição das imagens
 
 
 
 ### 03-02-2026
 
-Reunião com o professor Adilton
-
-Pequenos testes de conexão da Telemed no phanton de mama
-
-Leitura da
-
-
+* Reunião com o professor Adilton
+* Pequenos testes de conexão da Telemed no phanton de mama
+* Leitura da Dissertação da Vivian
+* Leitura da Disser
 
 
 
 #### 04-02-2026
 
-Procurei com o Ricardo uma versão do SW em um computador do laboratório - encontramos uma versão que parece não ser a mais atualizada, mas usaremos esta como base
-
-
+* &#x20;Procurei com o Ricardo uma versão do SW em um computador do laboratório - encontramos uma versão que parece não ser a mais atualizada, mas usaremos esta como base
 
 
 
 #### 05-02-2026 - Quinta
 
-
+* Leitura da documentação do Usgfw2 SDK
 
 
 
@@ -131,11 +121,9 @@ Melhorias no MainWindow.xaml ::
 
 
 
-\[x] atualizei o README com os SDKs
+\[x] Atualizei o README com os SDKs
 
-
-
-Fiz reunião com Gabrielle para conversarmos sobre a Identidade visual
+\[x] Fiz reunião com Gabrielle para conversarmos sobre a Identidade visual
 
 
 
@@ -156,15 +144,13 @@ Extenda30Deca
 
 \[x] Baixei as fontes online
 
-\[x] Em Conversa com o Ricardo, ele me disse que os botões do TGC devem ficar em baixo usar o slider em outra direção para mal impressão de configuração
+\[x] Em Conversa com o Ricardo, ele me disse que os botões do TGC devem ficar em baixo da imagem 
+
+&#x20;   usar o slider em outra direção (vertical) 
 
 
 
 #### 11-02-2026 - Quarta
-
- Tive problemas com o salvamento de ontem
-
-
 
 \[x] Create 3 files:
 
@@ -288,7 +274,7 @@ Como a solução está aberta no Visual Studio, você precisa fechar a solução
 
 
 
---- Melhorias no cabeçalho \[2h]
+\--- Melhorias no cabeçalho \[2h]
 
 \[x] Adicionar imagem de Logo Retirar a imagem que esta no momento
 
@@ -308,15 +294,13 @@ Como a solução está aberta no Visual Studio, você precisa fechar a solução
 
 
 
-Manha:
+
 
 \[x] Alteração do nome:TOMMUS
 
 
 
-
-
---- melhorias Informações da PROBE \[2h]
+\--- melhorias Informações da PROBE \[2h]
 
 \[x] Modificar a cor dos botões
 
@@ -329,10 +313,6 @@ Manha:
 
 
 11h-12h - Reunião Tommus
-
-
-
-
 
 
 
@@ -352,7 +332,7 @@ Tratamento de erros:
 
 
 
---- melhorias no Tomography Control \[2h ]
+\--- melhorias no Tomography Control \[2h ]
 
 \[ x] Melhorar botões --
 
@@ -366,7 +346,7 @@ Deixar nesse sequencia:
 
 
 
-\[ x] Probe Name -- não esta aparecendo
+\[x] Probe Name -- não esta aparecendo
 
 
 
@@ -400,7 +380,7 @@ No botão registre paciente será que daria para salvar os dados do paciente inc
 
 
 
-O Menu Settings deveria abrir um menu que teria uma opção de abrir uma imagem e tambem configurações, nas configurações abre uma nova tela de configurações, como um windows w dentro dela uma das opções seria o salvamento , e assim tera uma opção do usuario informar qual pasta quuer salvar. Nesse menu settings no futuro terá outras funcionalidades, deixe comentado noslugars que posso adicionar outras funcinalidades para que no futuro seja mais facil para eu adicionar
+O Menu Settings deveria abrir um menu que teria uma opção de abrir uma imagem e também configurações, nas configurações abre uma nova tela de configurações, como um Windows w dentro dela uma das opções seria o salvamento , e assim terá uma opção do usuário informar qual pasta quer salvar. Nesse menu settings no futuro terá outras funcionalidades, deixe comentado nos lugar que posso adicionar outras funcionalidades para que no futuro seja mais fácil para eu adicionar
 
 
 
@@ -432,19 +412,11 @@ Não a há suporte para esta interface (Excesçao de HReSULT?0x800004002 E\_Noin
 
 \[x] Melhorar botões modo Cine- já fiz isso na Terça -- talvez tenha no Gemini -- tenho que procurar
 
+\[x] adicionar botão de stop scan
 
+\[x] Ao lado do STATUS na barra de cima da imagem deixar ao lado do STATUS a situação RUN ou FROZEN colorido - alterar cor, por exemplo deixar RUN escrito colorido
 
-\[ x] adicionar botão de stop scan
-
-\[x ] Ao lado do STATUS na barra de cima da imagem deixar ao lado do STATUS a situação RUN ou FROZEN colorido - alterar cor, por exemplo deixar RUN escrito colorido
-
-
-
-
-
-
-
-\[ x]  Criar um botão para abrir uma pasta de um paciente que já foi cadastrado
+\[x]  Criar um botão para abrir uma pasta de um paciente que já foi cadastrado
 
 
 
@@ -500,13 +472,15 @@ Não a há suporte para esta interface (Excesçao de HReSULT?0x800004002 E\_Noin
 
 #### 16-02-2026 - feriado carnaval
 
-
+\-- não trabalhei
 
 
 
 #### 17-02-2026 - feriado carnaval
 
-#### 
+\-- não trabalhei
+
+
 
 #### 18-02-2026 Quarta -- a partir das 12h
 
@@ -552,7 +526,7 @@ Adicionei eixo y e x na imagem \[ Width vs depth]
 
 
 
-\[ x] Problemas de posicionamento da caixa que recebe a imagem de ultrassom e a própria imagem de ultrassom
+\[x] Problemas de posicionamento da caixa que recebe a imagem de ultrassom e a própria imagem de ultrassom
 
 Devem ficar sobrepostas para que não ocorra erros de deslocamento do eixo em relação a imagem
 
@@ -626,197 +600,78 @@ os eixos ficam demarcando errado
 
 
 
-#### 20-02-2026 -- Sexta -- planejamento
+#### 20-02-2026 -- Sexta 
 
-Melhorar o top -- informações do paciente -- botões de salvamento
-
-
-
-\[] no cabeçallho com os dados do paciente preciso adicionar esses campos, Patient Information Patiente ID Patiente Name Age Date of birth Gender Nº SUS Doctor Name CRM Date exame - data do dia Tambem preciso que essas informações sejam salvas corretamente
-
-\[] Organize o cabecalho de forma que fique mais intuitivo para o usuário relaizar os processos de adicionar um paciente salvar. editar e excluir, deixe mais visual e com uma cara profissional tipico de softwares clinicos medicos
-
-\[] Patient data fields :: Faça o tratamento da informação do campos de data de aniversário, deixar em formato de data
-
-\[ ] use o "C:\\Users\\raque\\OneDrive\\Documentos\\GitHub\\tomus\_Interface\\ArtUsRF2.py" Usando o código @AArtUsRF2.py como modelo quero criar a caixa vermelha dentro da imagem de ultrassom, e a linha  RF\_line, = ax\[0].plot(XRFline,YRFline,'g--'); a linha verde é a linha central onde futuramente será adquirido um gráfico de RF
+\[x] Melhorar o top -- informações do paciente -- botões de salvamento
 
 
+
+\[x] no cabeçallho com os dados do paciente preciso adicionar esses campos, Patient Information Patiente ID Patiente Name Age Date of birth Gender Nº SUS Doctor Name CRM Date exame - data do dia Tambem preciso que essas informações sejam salvas corretamente
+
+\[x] Organize o cabecalho de forma que fique mais intuitivo para o usuário relaizar os processos de adicionar um paciente salvar. editar e excluir, deixe mais visual e com uma cara profissional tipico de softwares clinicos medicos
+
+\[x] Patient data fields :: Faça o tratamento da informação do campos de data de aniversário, deixar em formato de data
+
+\[x] use o "C:\\Users\\raque\\OneDrive\\Documentos\\GitHub\\tomus\_Interface\\ArtUsRF2.py" Usando o código @AArtUsRF2.py como modelo quero criar a caixa vermelha dentro da imagem de ultrassom, e a linha  RF\_line, = ax\[0].plot(XRFline,YRFline,'g--'); a linha verde é a linha central onde futuramente será adquirido um gráfico de RF
 
 
 
 
 
-
-
-\[ ] use o caminho para encontrar o código @AArtUsRF2.py  "C:\\Users\\raque\\OneDrive\\Documentos\\GitHub\\tomus\_Interface\\ArtUsRF2.py" use-o como modelo
+\[x] use o caminho para encontrar o código @AArtUsRF2.py  "C:\\Users\\raque\\OneDrive\\Documentos\\GitHub\\tomus\_Interface\\ArtUsRF2.py" use-o como modelo
 criar os stacks Focal Depth \[mm] e Steering Angle \[deg] dentro do grid dos controles da probe no lado esquerdo além do StackPanel crie as funcionalidades de cada um deles
 
 
 
-10h - 11h
 
 
+\[x] Modificar para iniciar o software no modo run rapidamente e depois ir para o modo freeze
 
+\[x] Atualizar README - Adicionar informações sobre as pastas de Imagem/Font/Styles
 
+\[x] adicionar salvamento do botão TGC nos presets
 
-11h - 12h
+\[x] Implementar função de salvar modo Cine salvar em arquivo de vídeo\[pensar ainda em qual formato]
 
-\[ ] Modificar para iniciar o software no modo run rapidamente e depois ir para o modo freeze
+\[x] Ler Documentação sobre :: Tentar criar controle serial no painel do tomograpy controls para enviar comando para o ESP
 
 
 
 
 
-12h-13h almoço
+\[x] Melhorar StatusBar (Bottom) - retirar o texto READY - adicionar uma função de mensagem aonde, o usuário possa acompanhar o que esta sendo realizado
 
 
-
-13h-14h
-
-\[ ] Arrumar pasta Documentations - ver se é assim que faz
-
-\[ ] Atualizar README
-
-Adicionar informações sobre as pastas de Imagem/Font/Styles
-
-Arrumar rules
-
-
-
-
-
-\[] adicionar salvamento do botão TGC nos presets
-
-
-
-
-
-
-
-14h-15h
-
-\[ ] Implementar função de salvar modo Cine salvar em arquivo de vídeo\[pensar ainda em qual formato]
-
-
-
-15h-16h
-
-\[ ] Tentar criar controle serial no painel do tomograpy controls para enviar comando para o ESP
-
-
-
-16h-17h
-
-Fazer teste e gerar listas de tarefas
-
-
-
-
-
-
-
-\[ ] Implementar Função modo Cine e verificar qual melhor formato para realizar o salvamento
-
-\[ ] Melhorar StatusBar (Bottom) - retirar o texto READY - adicionar uma função de mensagem aonde, o usuário possa acompanhar o que esta sendo realizado
-
-\[ ] Criação de um arquivo Log - para obter informações de acesso e problemas decorrentes
-
-\[ ] add icon tommus no executável
-
-\[ ] Criar um modulo para mensagens Resources.resx para melhorar o idioma
-
-
-
-
-
-queria indicar a posição do transdutor, como convencialmente as pessoas utilizam a imagem de cima para baixo, no nosso caso usamos a imagem com o width no eixo y e o depth no eixo x teria como fazer uma indicação com uma imagem ou icone do transtudor de ultrassom mosrando que a imagem esta horizontal
-
-
-
-
-
-
-
-Settings
-
-Help
-
-About
-
-PATIENT ID
-
-PATIENT NAME
-
-
-
-Buttons top:
-New
-
-Open
-
-Edit
-
-Save
-
-Delete
-
-
-
-ButtonNew
-
-ButtonOpen
-
-ButtonEdit
-
-ButtonSave
-
-ButtonDelete
-
-
-
-Novo
-
-Abrir
-
-Editar
-
-Salvar
-
-Deletar
-
-
-
-Text="{x:Static p:Resources.ButtonCancel}"
-
-Content="{x:Static p:Resources.ButtonCancel}"
-
-
-
-
-
-!\[image](https://github.com/raquelpantojo/tomus\_Interface/blob/0961866672bae2df5166d3d35cf03750b41c677a/ImagensRelatorio/SW\_2002.png)
 
 
 
 ## 🗓️ Semana 04 (23/02 a 27/02)
 
-\[ ] Implementar controles de formação de feixe (Focal Depth e Steering Angle)
+\[x] Implementar controles de formação de feixe (Focal Depth e Steering Angle)
 
-\[ ] Integrar via SDK Usgfw2Lib os ajustes de profundidade focal (mm) e ângulo de deflexão (deg).
+\[x] Integrar via SDK Usgfw2Lib os ajustes de profundidade focal (mm) e ângulo de deflexão (deg).
 
-\[ ] Criar funcão FocusUpdateGUI() e SteeringAngleUpdateGUI()
+\[x] Criar metodo FocusUpdateGUI() e SteeringAngleUpdateGUI()
 
-\[ ] Implementar no grid de controle da probe
+\[x] Implementar no grid de controle da probe
 
-\[ ] Adicionar essas informações no salvamento do preset
+\[x] Adicionar essas informações no salvamento do preset
 
-\[ ] Adicionar essas palavras na troca de idioma no resources.resx - create LabelFocus e LabelSteeringAngle
-
-
-
-usando o ArtUsRF2.py implemnete corretamnete o steering angle de forma que a caixa vermelha e a linha verde pontilhada do RF tambem se alterem quando aplicado a inclinação do angulo.
+\[x] Adicionar essas palavras na troca de idioma no resources.resx - create LabelFocus e LabelSteeringAngle
 
 
+
+usando o ArtUsRF2.py implemente corretamente o steering angle de forma que a caixa vermelha e a linha verde pontilhada do RF tambem se alterem quando aplicado a inclinação do angulo.
+
+
+
+\[x] no Setting:
+
+>>  Ter a possibilidade da pessoa indicar qual pasta quer salvar os dados do paciente -- ok  
+
+>>  Adicionar um botão para exportar a imagem de uma pessoa e um vídeo - ok 
+
+>>  Criar um modulo para mensagens para ter a possibilidade de modificar o idioma.
 
 
 
@@ -830,35 +685,25 @@ usando o ArtUsRF2.py implemnete corretamnete o steering angle de forma que a cai
 
 
 
->> Adicionar um StatusService.cs que fara a gestão das mensagens na StatusBar
+\[x] Adicionar um StatusService.cs que fara a gestão das mensagens na StatusBar
 
->> implementar chaves para serem utilizadas no resources.resx
+\[x] implementar chaves para serem utilizadas no resources.resx
 
->> deixar automático a alteração de idioma, para que o usuário possa modifica-lo
-
-
-
-# 
-
->> Automatizei uma auditoria de verificação para investigar as principais falhas do  
-
- foiimpleadomnm dashboard para verificar a as principais falhas do projeto até o momento.
+\[x] deixar automático a alteração de idioma, para que o usuário possa modifica-lo
 
 
+
+\[x] Automatizei uma auditoria de verificação para investigar as principais falhas do  
+
+ foi criado um dashboard para verificar a as principais falhas do projeto até o momento.
 
 file:///C:/Users/raque/OneDrive/Documentos/GitHub/tomus\_Interface/Documentation/Project\_Dashboard.html
 
->>>>>>> ecdf9c7ebcca90dc0de4f549ecc8506e0b382bc3
 
 
+\[x] inicio da implementação modo Doppler
 
-
-
-
-
-# 
-
-Erro com o modo Doppler System.ArgumentException: 'Value does not fall within the expected range.'
+\[x] Erro com o modo Doppler System.ArgumentException: 'Value does not fall within the expected range.'
 
 
 
@@ -898,9 +743,15 @@ Modo BPW (ID:7): DISPONÍVEL
 
 ## 🗓️ Semana 06 09-02 a 13-02)
 
+Implementação com os motores de movimento:
+
+\[x] Implementação dos modos de movimento : Vertical, Linear e Rotacional
+ 
+\[x] Criação de style somente para os botões de movimento < > vertical, linear, rotacional BtnMotion
 
 
-\[x ] modificar a escrita dos Controles da Tomo:
+
+\[x] modificar a escrita dos Controles da Tomo:
 
 Linear Motion, Vertical Motion, Rotational motion
 
@@ -908,115 +759,77 @@ Motion Analysis
 
 
 
-\[ ] Arrumar Botão freeze/RUN - label não esta aparecendo
+\[x] Arrumar Botão freeze/RUN - label não esta aparecendo
 
-\[x] Adicionar os botões de salvar imagem, modo cine e gráfico de FH em cima da imagem de saída
+\[x] Adicionar os botões: salvar imagem, modo cine e gráfico de FH em cima da imagem de saída
 
-\[ ] Melhorar alinhamento do grid do Status e dos modos de aquisição
-
-
+\[x] Melhorar alinhamento do grid do Status e dos modos de aquisição
 
 
+
+\[x] Substituir texto estático "Ready" por um Binder que exibe eventos do sistema (ex: "Gravando...", "Hardware Conectado").
+Para adicionar a mensagem na barra do status, use:
+StatusService.SetStatus(AppResources.SUACHAVELABEL)
 
 \[ ] Se entrar no modoB deve desativar o modo doppler
 
-\[ ] Arrumar erro nb ViewModel os textos não estão aparecendo corretamente.
+\[ ] Arrumar erro no ViewModel os textos não estão aparecendo corretamente.
 
 \[ ] Implemnetar Focal Depht
 
 
 
-Modificar Settering Angle
+\[ ] Modificar Settering Angle
 
 Quando Steering Angle ativado, a imagem deve estar com profundidade de 90mm
 
 
+\[x] Alterar texto do status para cada um dos modos de aquisição
+\[x] Deixar o painel de controle do Doppler ativado somente quando esta em modo doppler
 
 
+\[ ] Controles do Doppler, deve ter:
 
-\[ ] Criar uma main so de  Doppler
+[x] PRF -- ok 
 
-PRF
+[x] Gain
 
-Gain
-
-Power
-
-Line Density
-
-Doppler window
-
-Windowsize small
-
-Position Size
-
-Fram Averaging
-
-Wall Filter
-
-B/Color Priority
-
-Color Threshold
-
-Baseline
+[x] Power
 
 
+Doppler window 12-03 e 13-03
+
+Line Density 16-03
+
+Frame Averaging 17-03
+
+Wall Filter 18-03
+
+B/Color Priority 19-03
+
+Color Threshold 20-03
+
+Baseline 20-03
+
+------------------------------------------------------------------------------------
+Movimento do Doppler Windows
+o usuário terá três níveis de interação formas com o visualizador da caixa do doppler
+1. Tamanho pré-definido 
+Quando o doppler é ativado, o usuário pode selecionar caixa >> no painel do Doppler Control: "Small", "Medium" ou "Large".
+
+>> Define uma base rápida. 
+>> Útil quando o usuário quer resetar a janela para um tamanho padrão no centro da imagem sem precisar ajustar manualmente.
+
+2. Movimento dos botões via direção (direito, esquerdo, cima e baixo)
+PreviewMouseDown, PreviewMouseUp
+Usei o DispatcherTimer para ter um movimento contínuo quando o botão estiver pressionado 
+
+3. Interação Direta com o Mouse, Arrastar e redimensionar
+Clicar no centro, arrasta livremente a janela nas posições X e Y
+E clicando nas bordas para redimensionar livremente a largura e altura  
 
 
-
-
-
- ViewOptionsVisibility não esta correto
-
-
-
-
-
-Modelo
-
-  private void FrequencyUpdateGUI()
-
-  {
-
-      if (frequency\_ctrl == null)
-
-          return;
-
-      int current = frequency\_ctrl.Current;
-
-      ViewModel.CurrentFrequency = $"{current / 1000000} MHz";
-
-  }
-
-
-
-
-
-private void PrevFrequency(object sender, RoutedEventArgs e)
-
-{
-
-    CtrlSetPrevNext(frequency\_ctrl, -1);
-
-    FrequencyUpdateGUI();
-
-}
-
-
-
-private void NextFrequency(object sender, RoutedEventArgs e)
-
-{
-
-    CtrlSetPrevNext(frequency\_ctrl, 1);
-
-    FrequencyUpdateGUI();
-
-}
-
-
-
-
+------------------------------------------------------------------------------------
 
 
 
@@ -1024,25 +837,37 @@ próximas tarefas
 
 Finalizar arquivo de relatório
 
-desativar modo Doppler quando estiver outros modos ativos 
-
-Alterar texto do status para cada um dos modos de aquisição
-
-
-
-Finalizar implementação do Doppler 
-
-Melhjorar Layout central 
+desativar modo Doppler quando estiver outros modos ativos
 
 
 
 
 
+Finalizar implementação do Doppler
+
+Melhorar Layout central - depois de finalizar modo doppler
 
 
-Ideias futuras, após um dado tempo que o transdutor não modificou seu frame ocorre o modo freeze
 
 
+
+
+
+
+
+\[ ] Implementar Função modo Cine e verificar qual melhor formato para realizar o salvamento
+
+\[ ] Melhorar StatusBar (Bottom) - retirar o texto READY - adicionar uma função de mensagem aonde, o usuário possa acompanhar o que esta sendo realizado
+
+\[ ] Criação de um arquivo Log - para obter informações de acesso e problemas decorrentes
+
+\[ ] add icon tommus no executável
+
+\[ ] Criar um modulo para mensagens Resources.resx para melhorar o idioma
+
+
+
+queria indicar a posição do transdutor, como convencialmente as pessoas utilizam a imagem de cima para baixo, no nosso caso usamos a imagem com o width no eixo y e o depth no eixo x teria como fazer uma indicação com uma imagem ou icone do transtudor de ultrassom mosrando que a imagem esta horizontal
 
 
 
@@ -1053,14 +878,11 @@ Ideias futuras, após um dado tempo que o transdutor não modificou seu frame oc
 ## To-Do:
 
 
+Implementar nos controles da probe a opção de selecionar qual dos transdutores estão sendo utilizados no momento 
 
-\[ ] no Setting:
 
->>  Ter a possibilidade da pessoa indicar qual pasta quer salvar os dados do paciente -- ok  
 
->>  Adicionar um botão para exportar a imagem de uma pessoa e um vídeo - ok 
-
->>  Criar um modulo para mensagens para ter a possibilidade de modificar o idioma.
+Ideias futuras, após um dado tempo que o transdutor não modificou seu frame ocorre o modo freeze
 
 
 
@@ -1074,3 +896,49 @@ Ideias futuras, após um dado tempo que o transdutor não modificou seu frame oc
 
 \[ ] Alterar o nome de b\_mode para tommusImageSystem
 
+
+
+
+Planejamento 
+12-03 e 13-03 - implementação Doppler window 
+
+----
+Seg 16-03
+>> Aula
+>> Line Density 
+
+Terça 17-03
+>> Aula
+>> Frame Averaging 
+
+Quarta 18-03
+>> Wall Filter 
+
+Quinta 19-03
+>> B/Color Priority 
+
+Sexta 20-03
+>> Color Threshold 
+>> Baseline
+
+---- 
+
+Seg 23-03
+Modo de visualização do Modo-B - View
+
+Terça 24-03
+Modo A
+
+Quarta 25-03
+Modo M
+
+Quinta 26-03
+Grafico de RF
+
+Sexta 27-03
+- Arrumar o eixo de Depth
+- Vi que o Width esta indicando valores negativos de cima, indicação errada
+---
+
+---
+Adicionar botão vermelho para STOP
