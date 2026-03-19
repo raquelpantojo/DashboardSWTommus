@@ -8,15 +8,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary-blue: #ddd5f1;
-            --accent-yellow: #0056b3;
-            --bg-dark: #1e1e1e;
-            --card-bg: #2d2d30;
-            --text-white: #ffffff;
-            --text-gray: #b0b0b0;
-            --success: #107C10;
-            --warning: #E6A817;
-            --progress-bg: #444;
+            /* Paleta Dark Soft & Fofa */
+            --bg-dark: #1b1b28;         /* Fundo escuro levemente roxo */
+            --card-bg: #262638;         /* Fundo dos cards mais suave */
+            --primary-cute: #bfa6f2;    /* Lilás pastel */
+             --primary-blue: #0056b3;
+            --accent-cute: #ffb7b2;     /* Pêssego/Rosa pastel */
+            --text-white: #f5f5f9;
+            --text-gray: #a8a8b8;
+            --success: #7cd3a1;         /* Verde água fofinho */
+            --warning: #fbd38d;         /* Amarelinho pastel */
+            --progress-bg: #383850;
         }
 
         * {
@@ -40,7 +42,7 @@
             justify-content: space-between;
             align-items: center;
             margin-bottom: 40px;
-            border-bottom: 2px solid var(--primary-blue);
+            border-bottom: 2px dashed var(--progress-bg); /* Borda tracejada é mais fofa */
             padding-bottom: 20px;
         }
 
@@ -58,10 +60,11 @@
         }
 
         .status-badge {
-            background-color: var(--success);
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 0.8rem;
+            background-color: rgba(124, 211, 161, 0.2);
+            color: var(--success);
+            padding: 10px 20px;
+            border-radius: 30px; /* Bem redondinho */
+            font-size: 0.85rem;
             font-weight: 600;
             border: 1px solid var(--success);
             box-shadow: 0 0 15px rgba(124, 211, 161, 0.1);
@@ -75,15 +78,16 @@
 
         .card {
             background-color: var(--card-bg);
-            padding: 25px;
-            border-radius: 12px;
-            border-left: 5px solid var(--primary-blue);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-            transition: transform 0.3s ease;
+            padding: 30px;
+            border-radius: 24px; /* Mais arredondado */
+            border-top: 5px solid var(--primary-cute); /* Detalhe colorido no topo em vez da lateral */
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Animação de "pulo" */
         }
 
         .card:hover {
-            transform: translateY(-5px);
+            transform: translateY(-8px);
+            box-shadow: 0 15px 35px rgba(191, 166, 242, 0.15); /* Sombra roxinha */
         }
 
         .card h2 {
@@ -95,7 +99,8 @@
         }
 
         .card h2 span {
-            margin-right: 10px;
+            margin-right: 12px;
+            font-size: 1.5rem; /* Emojis um pouco maiores */
         }
 
         /* Progress Bars */
@@ -113,15 +118,18 @@
 
         .progress-bar-container {
             background-color: var(--progress-bg);
-            height: 8px;
-            border-radius: 4px;
+            height: 10px; /* Um pouco mais gordinha */
+            border-radius: 10px;
             overflow: hidden;
         }
 
         .progress-bar {
             height: 100%;
-            background-color: var(--accent-yellow);
-            border-radius: 4px;
+            background-color: var(--primary-cute);
+            border-radius: 10px;
+            transition: width 1s ease-in-out;
+            background-image: linear-gradient(45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent);
+            background-size: 1rem 1rem;
         }
 
         /* Activities list */
@@ -154,6 +162,8 @@
             margin-top: 50px;
             display: flex;
             gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center; /* Centralizados para ficar mais harmonioso */
         }
 
         .btn-link {
@@ -198,16 +208,24 @@
             border: 2px solid transparent;
         }
 
-        .gallery-btn {
+        .image-thumbnail-btn:hover {
+            transform: translateY(-5px) rotate(2deg); /* Dá uma giradinha fofa */
+            border-color: var(--accent-cute);
+            background-color: rgba(255, 183, 178, 0.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .img-preview {
             width: 100%;
-            padding: 15px;
-            background-color: var(--primary-blue);
-            color: var(--accent-yellow);
-            border: 2px solid var(--accent-yellow);
-            border-radius: 8px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s;
+            height: 140px;
+            object-fit: cover; /* Faz a imagem preencher o espaço sem distorcer */
+            border-radius: 12px;
+            margin-bottom: 12px;
+            background-color: #2a2a40; /* Cor de fundo enquanto carrega */
+        }
+
+        .image-title {
+            color: var(--text-white);
             font-size: 0.9rem;
             font-weight: 600;
         }
@@ -219,6 +237,7 @@
                 align-items: flex-start;
                 gap: 15px;
             }
+            .links-container { justify-content: flex-start; }
         }
 
         /* Modal Styles */
@@ -232,8 +251,9 @@
             width: 100%;
             height: 100%;
             overflow: auto;
-            background-color: rgba(0, 0, 0, 0.9);
+            background-color: rgba(15, 15, 25, 0.95); /* Modal levemente mais azulado */
             cursor: zoom-out;
+            backdrop-filter: blur(5px); /* Desfoca o fundo (Moderno!) */
         }
 
         .modal-content {
@@ -241,8 +261,8 @@
             display: block;
             max-width: 90%;
             max-height: 85vh;
-            border-radius: 8px;
-            box-shadow: 0 0 20px var(--accent-yellow);
+            border-radius: 16px;
+            box-shadow: 0 0 30px rgba(191, 166, 242, 0.4); /* Glow no modal */
         }
 
         .close {
@@ -287,7 +307,7 @@
             <div class="progress-item">
                 <div class="progress-label"><span>Controles TGC/Ganho</span> <span>100%</span></div>
                 <div class="progress-bar-container">
-                    <div class="progress-bar" style="width: 100%;"></div>
+                    <div class="progress-bar" style="width: 100%; background-color: var(--success);"></div>
                 </div>
             </div>
 
@@ -306,76 +326,69 @@
             </div>
 
             <div class="progress-item">
-                <div class="progress-label"><span>Modo Doppler</span> <span>60%</span></div>
+                <div class="progress-label"><span>Modo Doppler</span> <span>30%</span></div>
                 <div class="progress-bar-container">
-                    <div class="progress-bar" style="width: 30%;"></div>
+                    <div class="progress-bar" style="width: 40%; background-color: var(--warning);"></div>
                 </div>
             </div>
             
-                <div class="progress-item">
+            <div class="progress-item">
                 <div class="progress-label"><span>Interface Modo Scan</span> <span>0%</span></div>
                 <div class="progress-bar-container">
                     <div class="progress-bar" style="width: 0%;"></div>
                 </div>
             </div>
-
-            
         </div>
 
         <div class="card">
             <h2><span>🕒</span> Atividades Recentes</h2>
             <ul class="activity-list">
-                <li class="activity-item"><span class="activity-date">11/03</span> Atualização técnica v0.0.6 e
-                    auditoria.</li>
-                <li class="activity-item"><span class="activity-date">10/03</span> Implementação das funcionalidades do
-                    modo Doppler.</li>
-                <li class="activity-item"><span class="activity-date">09/03</span> Otimização dos controles de movimento
-                    Linear, Vertical, Rotacional.</li>
+                <li class="activity-item"><span class="activity-date">12/03</span> Implementação das funcionalidades do modo Doppler. - Doppler Window</li>
+                <li class="activity-item"><span class="activity-date">11/03</span> Implementação das funcionalidades do modo Doppler.</li>
+                <li class="activity-item"><span class="activity-date">10/03</span> Implementação das funcionalidades do modo Doppler.</li>
+                <li class="activity-item"><span class="activity-date">09/03</span> Otimização dos controles de movimento Linear, Vertical, Rotacional.</li>
             </ul>
         </div>
 
         <div class="card" style="border-top-color: var(--warning);">
             <h2><span>🚀</span> Próximos Passos</h2>
             <ul class="activity-list">
-                <li class="activity-item"><span class="activity-date">*</span> Finalização da integração completa
-                    do
-                    Doppler.</li>
-                <li class="activity-item"><span class="activity-date">*</span> Implementação da funcionalidade da
-                    profundidade focal</li>
-                <li class="activity-item"><span class="activity-date">*</span> Implementação do modos de aquisição (A e
-                    M)</li>
-                <li class="activity-item"><span class="activity-date">*</span> Implementação do Gráfico de RF</li>
-                <li class="activity-item"><span class="activity-date">*</span> Implemnetar tela para o modo Scan -
-                    imagem volumétrica</li>
-                <li class="activity-item"><span class="activity-date">*</span> Implemnetar controle de movimento para o
-                    Modo Scan</li>
-                <li class="activity-item"><span class="activity-date">*</span> Implementação de logs de sistema
-                    para
-                    diagnóstico.</li>
-                <li class="activity-item"><span class="activity-date">*</span> Migração progressiva para MVVM
-                    (MainWindow refactoring).</li>
-                <li class="activity-item"><span class="activity-date">*</span> Validação de Regex para campos de
-                    paciente e CPF.</li>
-
+                <li class="activity-item"><span class="activity-date">12/03 a 20/03</span> Finalização da integração completa do Doppler.</li>
+                <li class="activity-item"><span class="activity-date">23/03</span> Implementação da funcionalidade da profundidade focal</li>
+                <li class="activity-item"><span class="activity-date">23/03</span> Implementar modos de visualização do modo B</li>
+                <li class="activity-item"><span class="activity-date">24/03 a 25/03</span> Implementação do modos de aquisição (A e M)</li>
+                <li class="activity-item"><span class="activity-date">26/03</span> Implementação do Gráfico de RF</li>
+                <li class="activity-item"><span class="activity-date">Em breve</span> Implementar tela para o modo Scan - imagem volumétrica</li>
+                <li class="activity-item"><span class="activity-date">Em breve</span> Implementar controle de movimento para o Modo Scan</li>
+                <li class="activity-item"><span class="activity-date">Em breve</span> Implementação de logs de sistema para diagnóstico.</li>
+                <li class="activity-item"><span class="activity-date">Em breve</span> Migração progressiva para MVVM.</li>
+                <li class="activity-item"><span class="activity-date">Em breve</span> Validação de Regex para campos de paciente e CPF.</li>
+                <li class="activity-item"><span class="activity-date">Em breve</span> Implementar nos controles da probe a opção de selecionar qual dos transdutores estão sendo utilizados no momento </li>
             </ul>
         </div>
 
         <div class="card gallery-card">
             <h2><span>🖼️</span> Imagens da Interface</h2>
             <div class="gallery-grid">
-                <div class="gallery-item">
-                    <button class="gallery-btn" data-src="ImagensRelatorio/login.png">Tela de Login</button>
+                
+                <div class="image-thumbnail-btn" data-src="ImagensRelatorio/login.png">
+                    <img src="ImagensRelatorio/login.png" class="img-preview" alt="Tela de Login" onerror="this.src='https://via.placeholder.com/300x200/383850/bfa6f2?text=Sem+Imagem'">
+                    <div class="image-title">Tela de Login</div>
                 </div>
-                <div class="gallery-item">
-                    <button class="gallery-btn" data-src="ImagensRelatorio/ScreenPrincipal.png">Interface
-                        Principal</button>
+
+                <div class="image-thumbnail-btn" data-src="ImagensRelatorio/ScreenPrincipal.png">
+                    <img src="ImagensRelatorio/ScreenPrincipal.png" class="img-preview" alt="Interface Principal" onerror="this.src='https://via.placeholder.com/300x200/383850/bfa6f2?text=Sem+Imagem'">
+                    <div class="image-title">Interface Principal</div>
                 </div>
-                <div class="gallery-item">
-                    <button class="gallery-btn" data-src="ImagensRelatorio/TomograpyControls.png">Controles de
-                        Tomografia</button>
+
+                <div class="image-thumbnail-btn" data-src="ImagensRelatorio/TomograpyControls.png">
+                    <img src="ImagensRelatorio/TomograpyControls.png" class="img-preview" alt="Controles de Tomografia" onerror="this.src='https://via.placeholder.com/300x200/383850/bfa6f2?text=Sem+Imagem'">
+                    <div class="image-title">Controles</div>
                 </div>
-                <div class="gallery-item">
-                    <button class="gallery-btn" data-src="ImagensRelatorio/ScreenSettings.png">Configurações</button>
+
+                <div class="image-thumbnail-btn" data-src="ImagensRelatorio/ScreenSettings.png">
+                    <img src="ImagensRelatorio/ScreenSettings.png" class="img-preview" alt="Configurações" onerror="this.src='https://via.placeholder.com/300x200/383850/bfa6f2?text=Sem+Imagem'">
+                    <div class="image-title">Configurações</div>
                 </div>
 
             </div>
@@ -384,10 +397,8 @@
         <div class="card" style="border-top-color: #ff6b6b;">
             <h2><span>⚠️</span> Alertas Técnicos</h2>
             <ul class="activity-list">
-                <li class="activity-item"><strong>MainWindow:</strong> Supera 5000 linhas de código (Prioridade de
-                    refatoração).</li>
-                <li class="activity-item"><strong>COM Objects:</strong> Monitoramento de ReleaseComObject necessário.
-                </li>
+                <li class="activity-item"><strong>MainWindow:</strong> Supera 5000 linhas de código (Prioridade de refatoração).</li>
+                <li class="activity-item"><strong>COM Objects:</strong> Monitoramento de ReleaseComObject necessário.</li>
                 <li class="activity-item"><strong>Thread Affinity:</strong> Dispatcher.Invoke requer otimização.</li>
             </ul>
         </div>
@@ -404,25 +415,20 @@
     </div>
 
     <div class="links-container">
-        <a href="Project_Audit_Report.md" class="btn-link">Relatório de Auditoria (MD)</a>
-        <a href="RelatorioAtividadesDiaria.md" class="btn-link">Atividades Diárias</a>
-        <a href="https://github.com/raquelpantojo/tomus_Interface" target="_blank" class="btn-link"
-            style="background-color: #9c8fbd; color: white;">Repositório GitHub</a>
-        <a href="https://pt.overleaf.com/read/hsqfwztqnngr#271e29" target="_blank" class="btn-link"
-            style="background-color: 9c8fbd; color: white;">Relatório de Atividades</a>
+        <a href="RelatorioAtividadesDiaria.md" class="btn-link">📝 Atividades Diárias</a>
+        <a href="https://github.com/raquelpantojo/tomus_Interface" target="_blank" class="btn-link" style="background-color: #2b3137; color: white;">🐱 Repositório GitHub</a>
+        <a href="https://pt.overleaf.com/read/hsqfwztqnngr#271e29" target="_blank" class="btn-link" style="background-color: #47a141; color: white;">📄 Relatório Overleaf</a>
     </div>
 
     <div id="imageModal" class="modal" onclick="this.style.display='none'">
         <span class="close">&times;</span>
-        <img class="modal-content" id="img01" style="display: none;">
-        <video class="modal-content" id="video01" controls style="display: none;"></video>
+        <img class="modal-content" id="img01">
     </div>
 
     <script>
         // Lógica do Modal atualizada para os novos cards
         var modal = document.getElementById("imageModal");
         var modalImg = document.getElementById("img01");
-        var modalVid = document.getElementById("video01");
 
         // Pegamos todas as "divs" da galeria em vez dos botões
         var thumbnails = document.querySelectorAll('.image-thumbnail-btn');
@@ -430,6 +436,7 @@
         thumbnails.forEach(thumb => {
             thumb.onclick = function () {
                 modal.style.display = "block";
+                // Pega a imagem grande a partir do data-src
                 modalImg.src = this.getAttribute('data-src');
             }
         });
