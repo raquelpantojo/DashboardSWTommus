@@ -18,7 +18,7 @@
 * Reunião com o professor Adilton
 * Pequenos testes de conexão da Telemed no phanton de mama
 * Leitura da Dissertação da Vivian
-* Leitura da Disser
+* Leitura da Dissertação do Lucas
 
 
 
@@ -144,9 +144,9 @@ Extenda30Deca
 
 \[x] Baixei as fontes online
 
-\[x] Em Conversa com o Ricardo, ele me disse que os botões do TGC devem ficar em baixo da imagem 
+\[x] Em Conversa com o Ricardo, ele me disse que os botões do TGC devem ficar em baixo da imagem
 
-&#x20;   usar o slider em outra direção (vertical) 
+&#x20;   usar o slider em outra direção (vertical)
 
 
 
@@ -600,7 +600,7 @@ os eixos ficam demarcando errado
 
 
 
-#### 20-02-2026 -- Sexta 
+#### 20-02-2026 -- Sexta
 
 \[x] Melhorar o top -- informações do paciente -- botões de salvamento
 
@@ -693,7 +693,7 @@ usando o ArtUsRF2.py implemente corretamente o steering angle de forma que a cai
 
 
 
-\[x] Automatizei uma auditoria de verificação para investigar as principais falhas do  
+\[x] Automatizei uma auditoria de verificação para investigar as principais falhas do
 
  foi criado um dashboard para verificar a as principais falhas do projeto até o momento.
 
@@ -746,7 +746,7 @@ Modo BPW (ID:7): DISPONÍVEL
 Implementação com os motores de movimento:
 
 \[x] Implementação dos modos de movimento : Vertical, Linear e Rotacional
- 
+
 \[x] Criação de style somente para os botões de movimento < > vertical, linear, rotacional BtnMotion
 
 
@@ -775,7 +775,7 @@ StatusService.SetStatus(AppResources.SUACHAVELABEL)
 
 \[ ] Arrumar erro no ViewModel os textos não estão aparecendo corretamente.
 
-\[ ] Implemnetar Focal Depht
+\[ ] Implementar Focal Depht
 
 
 
@@ -784,37 +784,31 @@ StatusService.SetStatus(AppResources.SUACHAVELABEL)
 Quando Steering Angle ativado, a imagem deve estar com profundidade de 90mm
 
 
+
 \[x] Alterar texto do status para cada um dos modos de aquisição
 \[x] Deixar o painel de controle do Doppler ativado somente quando esta em modo doppler
 
 
-\[ ] Controles do Doppler, deve ter:
 
-[x] PRF -- ok 
+Controles do Doppler, deve ter:
 
-[x] Gain
+* \[x] PRF -- ok
+* \[x] Gain -- ok
+* \[x] Power -- ok
+* \[x] Line Density -- não será implementado nessa versão pois o SDK não informa explicitamente o que são os valores de 1 a 10 apresentados nesse metodo
+* \[ ] Frame Averaging
+* \[ ] Wall Filter
+* \[ ] B/Color Priority
+* \[ ] Color Threshold
+* \[ ] Baseline
+* \[ ] Doppler window
 
-[x] Power
+\---
 
-
-Doppler window 12-03 e 13-03
-
-Line Density 16-03
-
-Frame Averaging 17-03
-
-Wall Filter 18-03
-
-B/Color Priority 19-03
-
-Color Threshold 20-03
-
-Baseline 20-03
-
-------------------------------------------------------------------------------------
 Movimento do Doppler Windows
 o usuário terá três níveis de interação formas com o visualizador da caixa do doppler
-1. Tamanho pré-definido 
+
+1. Tamanho pré-definido
 Quando o doppler é ativado, o usuário pode selecionar caixa >> no painel do Doppler Control: "Small", "Medium" ou "Large".
 
 >> Define uma base rápida. 
@@ -822,14 +816,18 @@ Quando o doppler é ativado, o usuário pode selecionar caixa >> no painel do Do
 
 2. Movimento dos botões via direção (direito, esquerdo, cima e baixo)
 PreviewMouseDown, PreviewMouseUp
-Usei o DispatcherTimer para ter um movimento contínuo quando o botão estiver pressionado 
-
+Usei o DispatcherTimer para ter um movimento contínuo quando o botão estiver pressionado
 3. Interação Direta com o Mouse, Arrastar e redimensionar
 Clicar no centro, arrasta livremente a janela nas posições X e Y
-E clicando nas bordas para redimensionar livremente a largura e altura  
+E clicando nas bordas para redimensionar livremente a largura e altura
 
 
-------------------------------------------------------------------------------------
+
+
+
+Arrumar o eixo de Depth -- ok
+
+\---
 
 
 
@@ -878,7 +876,8 @@ queria indicar a posição do transdutor, como convencialmente as pessoas utiliz
 ## To-Do:
 
 
-Implementar nos controles da probe a opção de selecionar qual dos transdutores estão sendo utilizados no momento 
+
+Implementar nos controles da probe a opção de selecionar qual dos transdutores estão sendo utilizados no momento
 
 
 
@@ -899,46 +898,539 @@ Ideias futuras, após um dado tempo que o transdutor não modificou seu frame oc
 
 
 
-Planejamento 
-12-03 e 13-03 - implementação Doppler window 
 
-----
+Planejamento
+12-03 e 13-03 - implementação Doppler window
+
+é possível realizar a seleção dos transdutores
+
+
+
+Mensagem do EchoWave
+Ultrasound scanner not found
+
+1. check if the ultrasound scanner is properly connected.
+2. Check if the ultrasound scanner's power is turned on.
+3. Check if the drivers of the ultrasound scanner are installed properly.
+4. Restart software or click probe selection button.
+
+
+
+Salvamento em DICON
+
+
+
+salvamento mp4 vídeo cine - o modo cine salva a tela toda
+a imagem salva com um campo inicial com as informações do paciente
+adicionar um popup mostrando o carregamento do salvamento
+
+
+
+No modo B:
+Implemnetar Speckle Reduction
+Adicionar o ZOOM
+
+B-Pallete
+Brilho contraste e luminosidade
+No Focus - adicionar um -> seta indicando a posição que esta sendo modificada.
+
+
+
+
+
+
+
+\---
+
 Seg 16-03
+
 >> Aula
 >> Line Density 
 
+Implemente Line Density com Modo Doppler,
+Usando o mesmo LineDensityBUpdateGUI()
+Preciso ver se o no combobox atualizando sincronizado com o SDK ficou correto, senão tenho com chamar cada um dos tipos e ai fazer um if com cada tipo e os valores
+
+enum tagLineDensity
+{
+const Usgfw2Lib.tagLineDensity LINE\_DENSITY\_HIGH = 32;
+const Usgfw2Lib.tagLineDensity LINE\_DENSITY\_LOW = 8;
+const Usgfw2Lib.tagLineDensity LINE\_DENSITY\_MEDIUM\_FAST = 14;
+const Usgfw2Lib.tagLineDensity LINE\_DENSITY\_MEDIUM = 16;
+const Usgfw2Lib.tagLineDensity LINE\_DENSITY\_STANDARD\_FAST = 22;
+const Usgfw2Lib.tagLineDensity LINE\_DENSITY\_STANDARD = 24;
+};
+
+
+
+Transdutor: L12-5N40-A4
+Fiquei tentando entender como  o line density esta funcinando
+
+duvidas?
+pag88
+LineDensity o que é multibeam mode - parallel beamforming
+
+
+
+
+
+
+
+\---
+
 Terça 17-03
->> Aula
+
+
+
+
+
+
+
 >> Frame Averaging 
 
+FrameAvgDopplerUpdadeGUI();
+
+private void FrameAvgDopplerUpdadeGUI();
+{
+if (dopplerFrameAvg == null)
+return;
+int current = dopplerFrameAvg.Current;
+dopplerFrameAvg\_label.Content = $"{current} mm";
+
+}
+dopplerFrameAvg\_label
+
+
+
+
+
+
+
+>> Color Threshold 
+>> Slider 
+Color Threshold adjustment increases or decreases the color data level below which the color information stops. Using high valões display more color, and using low values displays more B-Mode data.
+IUsgDopplerColorThreshold
+Current / Values
+>> Valor Máximo 64
+>> Valor Mínimo 1
+>> sem Unidade 
+
+
+
+
+
+
+
+
+
+
+
+\---
+
 Quarta 18-03
->> Wall Filter 
+
+
+
+* Melhorar o layout dos botões de STOP dos movimento dos motores: vertical, linear a rotacional.
+
+
+
+
+
+>> Implementar Frequência no Doppler
+
+Valores: 4MHz a 5,3 MHz 6,7Mz
+
+
+
+
+
+>> Implementar Wall Filter 
+
+>> Valor Máximo: 15%
+>> Valor Mínimo: 5%
+>> unidade %
+
+>> no Echo Wave é um botão  
+
+
+
+
+
+no Color Threshold
+
+Ao lado da imagem de ultrassom, que esta no Winform, quero adicionar o heatmap
+
+gradient legend that visually represents a continuous range of values em escala de cinza e em escala de cor do doppler, quando eu uso o B/Color Priority tem um marcador que vai mostrar em cima do heatmap os valores que estou modificando do B/Color Priority e anota no heatmap
+
+
+
+
+
+Atualizar os valores iniciais dos parâmetros do Doppler
+
+PRFUpdateGUI()
+
+LineDensitDopplerUpdateGUI()
+
+PowerDopplerUpdateGUI()
+
+LineDensitDopplerUpdateGUI()
+
+WallFilterUpdateGUI()
+
+BColorUpdateGUI()
+
+ColorThresholdUpdateGUI()
+
+FrequencyDopplerUpdateGUI()
+
+
+
+
+
+Line Density do Modo Doppler esta errado
+
+
+
+
+
+>> Implementar B/Color Priority
+>> Slider 
+B/Color Priority adjustment increases or decreases the level of B mode image at which color
+information will overwrite the B mode information in Color Doppler mode. 
+If you need to see more flow in some área, increase the B/Color Priority value.
+Metodo - IUsgDopplerColorPriority  dopplerColorPriority
+Current / Values
+>> Máximo 255
+>> Mínimo 0
+>> sem unidade 
+LabelColorPriority
+
+
+
+\--- TODO:
+
+agora me ajude a implementar Frame Averaging - igual IUsgFrameAvg
+
+
+
+
+
+
+
+
+
+\---
 
 Quinta 19-03
->> B/Color Priority 
+
+Atualização no Dashboard
+
+>> 11h Reunião Tommus 
+
+
+
+
+
+>> Modificar a posição do controle do Doppler -- trocar cor quando ativado 
+>> Finalizar as resources.resx
+>> modificar ViewModel modificar string para int 
+
+2028 dissertação
+Lucio Neves
+
+
+
+
+
+\---
 
 Sexta 20-03
->> Color Threshold 
->> Baseline
 
----- 
+>> Reunião Laboratório - 13h
+
+
+
+
+
+\--------------------------------------------------------------------------
 
 Seg 23-03
-Modo de visualização do Modo-B - View
+Modos de visualização do Modo-B - View - Compound/Wide View/Standart
+
+Rotina do SCAN
+
+1. Fazer Rotacional (Tag 3) ir para o HOMMING
+2. Enviar eixo Linear (Tag 2) para a posição do ponto Central
+3. Fazer Vertical (Tag 1) ir para o HOMMING
+4. Solicitar que usuário realize o movimento manual ate o ponto inicial do SCAN
+5. Arma o trigger -- pela TELEMED
+5.1 alarme do trigger
+5.2 ligue o trigger para ir armazenando as imagens em modo .bin
+5.3 Arm do Trigger -- enviar  TRG\_ARM:3,20,1,360
+6. Enviar movimento Relativo 400º R\_MOVE
+
+
+
+
+
+
+
+
+
+\---
 
 Terça 24-03
-Modo A
+Trabalhando nos controles do Doppler
+
+
+
+
+
+\---
 
 Quarta 25-03
-Modo M
+Trabalhando nos controles do Doppler
+
+
+
+\---
 
 Quinta 26-03
-Grafico de RF
+
+>> Reunião Tommus
+
+Comecei a desenhar a interface do ScreenScanWindows onde mostrará as imagens em cada eixo
+
+Conversei com o Lucas e Nilton para eles me auxiliarem nos códigos que realizam as transformações de uma arquivo com o sinal do RF em .nrrd
+
+
+
+\---
 
 Sexta 27-03
-- Arrumar o eixo de Depth
-- Vi que o Width esta indicando valores negativos de cima, indicação errada
----
 
----
-Adicionar botão vermelho para STOP
+>> Reunião Laboratório - 13h
+
+Melhorias na tela ScreenScanWindows:
+
+Implementação dos códigos em MATLAB para transformar o arquivo .bin em .nrrd
+
+
+
+\----------------------------------
+
+
+
+Segunda 30-03
+
+Estou criando uma tela para mostrar o processamento volumétrico de uma imagem de ultrassom, o código em python Generate\_3D\_automatic\_Acquisition\_T4.py recebe um código em .bin e converte para .nrrd seguindo etapas estabelecidas de processamento. após isso, no ScreenScanWindows, deve-se mostrar a imagem final nos eixos axial, coronal e sagital e volumétrico.
+Estou com alguns problemas:
+1.Fiz um teste e as imagens de cada um dos cortes não estão aparecendo no final.
+2. Quando o usuário inicia a geração da imagem volumétrica o software deve travar outras ações.
+3. A barra de atualização não esta funcionando corretamente, ela deve quantificar o progresso de desenvolvimento.
+4. a imagem de referencia dos planos não ficou boa. Preciso de algo que tenha mais sentido medico
+
+
+
+ótimo, será que agora daria para implementar um controle de brilho das imagens no grid esquerdo, pq as imagens estão carregando uma faixa preta.
+
+
+
+
+
+\---
+
+Terça 31-03
+
+
+
+Estou criando uma tela para mostrar o processamento volumétrico de uma imagem de ultrassom, o código em python Generate\_3D\_automatic\_Acquisition\_T4.py recebe um código em .bin e converte para .nrrd seguindo etapas estabelecidas de processamento. após isso, no ScreenScanWindows, deve-se mostrar a imagem final nos eixos axial, coronal e sagital e volumétrico.
+Estou com problemas, o volumétrico não esta funcionando corretamente, sobre esse assunto estou com algumas duvidas sobre a implementação, daria para usar algum plugin do 3D slicer para gerar volumétrico? se sim me explique como faz e as diferenças de criar um volumétrico na raça ou usar um pronto. Se formos fazer um volumétrico preciso que com o click do mouse, eu consiga girar todas as direções esse volumétrico.
+Outra implementação que eu quero fazer é em relação é adicionar a possibilidade de verificar e contar a quantidade de inclusões nos cortes, sagital, coronal e axial.
+para isso encontrei um código que me pareceu fazer isso for con in contours:
+index = np.array(con\['uid'])
+num = int(con\['number'])
+
+&#x20;   for c,i in zip(con\['contours'],range(len(index))):
+        idf = uids.index(index\[i])
+        origin = slices\[idf+1].ImageOrientationPatient
+        pos\_r = slices\[idf+1].ImagePositionPatient\[1]
+        pos\_c = slices\[idf+1].ImagePositionPatient\[0]
+        spacing\_r = slices\[idf+1].PixelSpacing\[1]
+        spacing\_c = slices\[idf+1].PixelSpacing\[0]
+        nodes = np.array(c).reshape((-1, 3))
+        r = (np.inner((nodes\[:, 1] - pos\_r),origin\[0]) + np.inner((nodes\[:,1] - pos\_r),origin\[3])) / spacing\_r
+        c = (np.inner((nodes\[:, 0] - pos\_c),origin\[1]) + np.inner((nodes\[:,0] - pos\_c),origin\[4])) / spacing\_c 
+        rr, cc = polygon(r, c)
+        label\[idf, rr, cc] = num+1 me ajude a implementar em python esse código esta sendo chamado de processInclusion.py
+
+
+
+
+
+
+\---
+
+Quarta 01-04
+
+Não trabalhei no TOMMUS
+
+> Trabalhei no código do Manejo Inteligente -- gerar apk flutter build apk
+
+
+
+
+
+
+
+\---
+
+Quinta 02-04
+
+
+
+
+
+Estou precisando implementar melhores formas de realizar o salvamento de imagens de ultrassom, com formato .bin para as imagens adquiridas no modo de scan, isso quando o usuário clica no modo SCAN, ira iniciar a movimentação dos motores (que essa parte será implementada mais tarde - que seguirá as seguintes partes Rotina do SCAN
+
+1. Fazer Rotacional (Tag 3) ir para o HOMMING
+2. Enviar eixo Linear (Tag 2) para a posição do ponto Central
+3. Fazer Vertical (Tag 1) ir para o HOMMING
+4. Solicitar que usuário realize o movimento manual ate o ponto inicial do SCAN
+5. Arma o trigger -- pela TELEMED
+5.1 alarme do trigger
+5.2 ligue o trigger para ir armazenando as imagens em modo .bin
+5.3 Arm do Trigger -- enviar  TRG\_ARM:3,20,1,360
+6. Enviar movimento Relativo 400º R\_MOVE ) e após isso ocorre o salvamento no formato .bin, no qual abre a tela do ScreenScanWindow seguindo para os processamentos.
+No MainWindow eu salvo as imagens com formato jpg, que esta ótimo. Mas tbm nesse modo queria implementar que durante o salvamento como header aparecesse as informações do paciente, como geralmente é utilizado na clinica.
+Estou usando o SDK e acredito eu seja o método IUsgFileStorage (estou anexando o Guia)
+Sendo assim, preciso de duas ajudas, a primeira é a implementação com o salvamento no formato .bin e em seguida é a melhoria no salvamento das imagens.
+
+
+
+IUsgFileStorage
+CloseDataKey
+Load
+
+
+
+
+
+>> Baseline -- ativado no Modo CFM somente 
+Baseline adjustment increases or decreases part of Color Doppler data displaying as corresponding to
+positive (forward flow) or negative (reverse flow) velocity. Changing Baseline is possible to minimize aliasing by displaying a greater range of forward flow with respect to reverse flow, or vice versa.
+Baseline values are non dimensional.
+
+IUsgDopplerBaseLine
+Current / Values
+
+>> Máximo
+>> Mínimo
+>> sem Unidade 
+
+
+
+Informação da DATA
+<!--  Informação carrega automático  -->
+<StackPanelGrid.Column="15"Grid.ColumnSpan="3"Margin="5,0,0,0">
+<Labelx:Name="lblExamDate"Content="{x:Static p:Resources.LabelExamDate}"Style="{StaticResource LabelTop}" />
+<TextBoxx:Name="txtDataAtual"Focusable="False"IsReadOnly="True"Style="{StaticResource TextBoxTop}"Text="{Binding ViewModel.CurrentDate, RelativeSource={RelativeSource AncestorType=Window}, Mode=OneWay}" />
+</StackPanel>
+
+
+
+Em caso de erro com Resources
+Se nada disso funcionar, tente o "reset" clássico:
+
+Delete o arquivo .Designer.cs associado ao seu .resx.
+
+Clique com o botão direito no .resx e escolha Run Custom Tool (Executar Ferramenta Personalizada).
+
+Isso forçará a criação de um novo arquivo de ponte sem resquícios de erros antigos.
+
+
+
+
+
+&#x20;            
+
+\---
+
+Sexta 03-04 -- Feriado
+
+
+
+\---
+
+Segunda 06-04
+
+
+
+Correções no MainWindows::
+
+1. Os campos, Sexo e Idade no cadastro do paciente não estão funcionando corretamente -- ok
+2. Corrigindo o Header das imagens -- 
+
+   1. Problema: Quando carrega a pasta de um dado paciente, no salvamento da imagem, o header da imagem  armazena o nome do paciente antigo e não do atual
+
+3\. Melhorias na layout - como redução das bordas, deixando mais clean
+
+4\. Melhorando a posição do icone de transdutor
+
+esse ícone esta em cima do eixo y, sobreposto   <ContentControlGrid.Column="2"Grid.ColumnSpan="2"Width="108"Height="110"Margin="15,0,0,0"HorizontalAlignment="Left"VerticalAlignment="Top"Content="{StaticResource IconModernOutlineProbeWithReference}">
+<ContentControl.RenderTransform>
+
+<TransformGroup>
+<ScaleTransform />
+<SkewTransform />
+<RotateTransform Angle="90" />
+<TranslateTransform />
+</TransformGroup>
+</ContentControl.RenderTransform>
+
+</ContentControl>
+
+5\. Melhorando a posição dos Eixos da imagens do ultrassom
+
+6\. Iniciando a implementação da caixa da galeria das imagens salvas.  
+
+
+
+
+
+
+
+\--
+
+Terça 07-04
+
+>> Atualizações do Dashboard 
+
+
+
+
+
+
+
+
+
+\----------------------
+
+Trabalhos Futuros
+
+
+
+preciso implementar, me ajude a implementar cada um dos itens abaixo:
+Usando esses código, preciso implementar:
+
+1. A profundidade focal corretamente use o usgfw2 do sdk,
+2. Correção do idioma: a alteração d idioma não esta atualizando corretamente
+3. O Save Image dentro do Patiente Register não esta mostrando os tumbnails corretamente
+Nesse caso quero que criar uma galeria de imagens, onde as imagens salvas ficam alinhadas como duas colunas e varias linhas, em cada caixa, deve ter a um telinha como um thumbanail de visualização da imagem, e a possibilidade de selecionar essa caixa, para posteriormente salvar em um arquivo de PDF, abaixo da imagem, deve ter botões de excluir a imagem
+5. O width esta com valores negativos no eixo para cima e valores positivos no eixo para baixo, e tbm esta modificando quando modificamos o Depth sendo que o Width não deve alterar quando a profundidade é modificada.
+6. O grid do TGC esta ficando quebrado na tela, esta aparecendo metade dele
+
+
+

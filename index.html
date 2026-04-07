@@ -315,9 +315,9 @@
     <header>
         <div class="logo-container">
             <h1>TOMMUS <span style="color: var(--text-white); font-weight: 300;">IMAGE SYSTEM</span></h1>
-            <p>✨ Project Dashboard Development | v0.0.2</p>
+            <p>✨ Project Dashboard Development | v0.0.6</p>
         </div>
-        <div class="status-badge">🟢 Atualizado dia 19-03-2026</div>
+        <div class="status-badge">🟢 Atualizado dia 07-04-2026</div>
     </header>
 
     <div class="dashboard-grid">
@@ -325,40 +325,37 @@
             <h2><span>📑</span> Maturidade do Sistema</h2>
 
             <div class="progress-item">
-                <div class="progress-label"><span>Scan Modo B</span> <span>80%</span></div>
+                <div class="progress-label"><span>Scan Modo B & Geometria</span> <span>95%</span></div>
                 <div class="progress-bar-container">
-                    <div class="progress-bar" style="width: 80%;"></div>
-                </div>
-            </div>
-
-
-            <div class="progress-item">
-                <div class="progress-label"><span>Controle Tomografia movimento Vertical, Linear a Rotacional</span>
-                    <span>100%</span>
-                </div>
-                <div class="progress-bar-container">
-                    <div class="progress-bar" style="width: 100%;"></div>
+                    <div class="progress-bar" style="width: 95%;"></div>
                 </div>
             </div>
 
             <div class="progress-item">
-                <div class="progress-label"><span>Exportação Modo Cine</span> <span>80%</span></div>
+                <div class="progress-label"><span>Rotina de SCAN (Homing/Trigger)</span> <span>90%</span></div>
                 <div class="progress-bar-container">
-                    <div class="progress-bar" style="width: 80%;"></div>
+                    <div class="progress-bar" style="width: 90%;"></div>
                 </div>
             </div>
 
             <div class="progress-item">
-                <div class="progress-label"><span>Modo Doppler</span> <span>50%</span></div>
+                <div class="progress-label"><span>Processamento Volumétrico (NRRD)</span> <span>75%</span></div>
                 <div class="progress-bar-container">
-                    <div class="progress-bar" style="width: 50%; background-color: var(--warning);"></div>
+                    <div class="progress-bar" style="width: 75%;"></div>
                 </div>
             </div>
 
             <div class="progress-item">
-                <div class="progress-label"><span>Interface Modo Scan</span> <span>0%</span></div>
+                <div class="progress-label"><span>Modo Doppler (Wall Filter/PRF)</span> <span>70%</span></div>
                 <div class="progress-bar-container">
-                    <div class="progress-bar" style="width: 0%;"></div>
+                    <div class="progress-bar" style="width: 70%; background-color: var(--warning);"></div>
+                </div>
+            </div>
+
+            <div class="progress-item">
+                <div class="progress-label"><span>Galeria de Imagens</span> <span>30%</span></div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 30%; background-color: var(--accent-cute);"></div>
                 </div>
             </div>
         </div>
@@ -366,39 +363,22 @@
         <div class="card">
             <h2><span>🕒</span> Atividades Recentes</h2>
             <ul class="activity-list">
-                <li class="activity-item"><span class="activity-date">18/03</span> Implementação de Wall Filter, B/Color
-                    Priority e Heatmap de Doppler.</li>
-                <li class="activity-item"><span class="activity-date">17/03</span> Ajustes de Frame Averaging e Color
-                    Threshold.</li>
-                <li class="activity-item"><span class="activity-date">16/03</span> Integração de Line Density para o
-                    Modo Doppler.</li>
+                <li class="activity-item"><span class="activity-date">06/04</span> Correção de Header/Paciente e reposicionamento de ícones do transdutor.</li>
+                <li class="activity-item"><span class="activity-date">02/04</span> Implementação de salvamento **.bin** otimizado para o modo SCAN.</li>
+                <li class="activity-item"><span class="activity-date">30/03</span> Integração Python/MATLAB para geração de arquivos **.nrrd** (3D).</li>
+                <li class="activity-item"><span class="activity-date">23/03</span> Definição da Rotina de Movimentação (Homing/Relativo) para Tomografia.</li>
+                <li class="activity-item"><span class="activity-date">18/03</span> Implementação de Wall Filter, B/Color Priority e Heatmap Doppler.</li>
             </ul>
         </div>
 
-        <div class="card" style="border-top-color: var(--warning);">
+        <div class="card" style="border-top-color: var(--accent-cute);">
             <h2><span>🚀</span> Próximos Passos</h2>
             <ul class="activity-list">
-                <li class="activity-item"><span class="activity-date">12/03 a 20/03</span> Finalização da integração
-                    completa do Doppler.</li>
-                <li class="activity-item"><span class="activity-date">23/03</span> Implementação da funcionalidade da
-                    profundidade focal</li>
-                <li class="activity-item"><span class="activity-date">23/03</span> Implementar modos de visualização do
-                    modo B</li>
-                <li class="activity-item"><span class="activity-date">24/03 a 25/03</span> Implementação do modos de
-                    aquisição (A e M)</li>
-                <li class="activity-item"><span class="activity-date">26/03</span> Implementação do Gráfico de RF</li>
-                <li class="activity-item"><span class="activity-date">Em breve</span> Implementar tela para o modo Scan
-                    - imagem volumétrica</li>
-                <li class="activity-item"><span class="activity-date">Em breve</span> Implementar controle de movimento
-                    para o Modo Scan</li>
-                <li class="activity-item"><span class="activity-date">Em breve</span> Implementação de logs de sistema
-                    para diagnóstico.</li>
-                <li class="activity-item"><span class="activity-date">Em breve</span> Migração progressiva para MVVM.
-                </li>
-                <li class="activity-item"><span class="activity-date">Em breve</span> Validação de Regex para campos de
-                    paciente e CPF.</li>
-                <li class="activity-item"><span class="activity-date">Em breve</span> Implementar nos controles da probe
-                    a opção de selecionar qual dos transdutores estão sendo utilizados no momento </li>
+                <li class="activity-item"><span class="activity-date">Urgente</span> **Correção de Eixos**: Ajustar escala visual do Width vs Depth.</li>
+                <li class="activity-item"><span class="activity-date">Prioridade</span> **Galeria de Thumbnails**: Implementar visualização e exportação PDF.</li>
+                <li class="activity-item"><span class="activity-date">Prioridade</span> **Focal Depth**: Corrigir profundidade focal via Usgfw2 SDK.</li>
+                <li class="activity-item"><span class="activity-date">UI/UX</span> **Grid TGC**: Resolver quebra de layout e visibilidade do grid.</li>
+                <li class="activity-item"><span class="activity-date">Desenvolvimento</span> **Processamento Volumétrico**: Melhorar cortes Axial/Coronal/Sagital.</li>
             </ul>
         </div>
 
@@ -442,24 +422,24 @@
         <div class="card" style="border-top-color: #ff6b6b;">
             <h2><span>⚠️</span> Alertas Técnicos</h2>
             <ul class="activity-list">
-                <li class="activity-item"><strong>MainWindow:</strong> Supera 5000 linhas de código (Prioridade de
-                    refatoração).</li>
-                <li class="activity-item"><strong>COM Objects:</strong> Monitoramento de ReleaseComObject necessário.
-                </li>
-                <li class="activity-item"><strong>Thread Affinity:</strong> Dispatcher.Invoke requer otimização.</li>
+                <li class="activity-item"><strong>Eixo Y (Width):</strong> Inversão de sinais e dependência indevida de Depth.</li>
+                <li class="activity-item"><strong>Header Cache:</strong> Problemas de sincronia entre nome do paciente e salvamento.</li>
+                <li class="activity-item"><strong>3D Processing:</strong> Performance do script Generate_3D em grandes volumes.</li>
             </ul>
         </div>
 
         <div class="card" style="border-top-color: var(--success);">
             <h2><span>🛠️</span> Stack Tecnológica</h2>
             <ul class="activity-list">
-                <li class="activity-item"><strong>Framework:</strong> .NET 4.7.2 / WPF</li>
-                <li class="activity-item"><strong>Hardware:</strong> Telemed Usgfw2Lib</li>
-                <li class="activity-item"><strong>Serial:</strong> ESP32 Communication</li>
-                <li class="activity-item"><strong>Fonts:</strong> Poppins, Extenda</li>
+                <li class="activity-item"><strong>Framework:</strong> .NET 4.7.2 / WPF / MVVM</li>
+                <li class="activity-item"><strong>Processamento:</strong> Python 3.x / MATLAB Compiler</li>
+                <li class="activity-item"><strong>Visualização:</strong> Activiz.NET (VTK)</li>
+                <li class="activity-item"><strong>Formatos:</strong> NRRD, BIN, JPG, PDF</li>
             </ul>
         </div>
     </div>
+
+
 
     <div class="links-container">
         <a href="RelatorioAtividadesDiaria.md" class="btn-link">📝 Atividades Diárias</a>
