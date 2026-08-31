@@ -1,0 +1,15 @@
+var dir_4365754964c83667c76fd32d76d1d907 =
+[
+    [ ".NETFramework,Version=v4.7.2.AssemblyAttributes.cs", "x64_2_release_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.html", null ],
+    [ "AnimatedProbeIcon.g.cs", "x64_2_release_2_animated_probe_icon_8g_8cs.html", "x64_2_release_2_animated_probe_icon_8g_8cs" ],
+    [ "AnnotationWindow.g.cs", "x64_2_release_2_annotation_window_8g_8cs.html", "x64_2_release_2_annotation_window_8g_8cs" ],
+    [ "App.g.cs", "x64_2_release_2_app_8g_8cs.html", "x64_2_release_2_app_8g_8cs" ],
+    [ "b_mode_Content.g.cs", "x64_2_release_2b__mode___content_8g_8cs.html", null ],
+    [ "GeneratedInternalTypeHelper.g.cs", "x64_2_release_2_generated_internal_type_helper_8g_8cs.html", "x64_2_release_2_generated_internal_type_helper_8g_8cs" ],
+    [ "LateralidadeDialog.g.cs", "x64_2_release_2_lateralidade_dialog_8g_8cs.html", "x64_2_release_2_lateralidade_dialog_8g_8cs" ],
+    [ "LoginWindow.g.cs", "x64_2_release_2_login_window_8g_8cs.html", "x64_2_release_2_login_window_8g_8cs" ],
+    [ "MainWindow.g.cs", "x64_2_release_2_main_window_8g_8cs.html", "x64_2_release_2_main_window_8g_8cs" ],
+    [ "PresetNameDialog.g.cs", "x64_2_release_2_preset_name_dialog_8g_8cs.html", "x64_2_release_2_preset_name_dialog_8g_8cs" ],
+    [ "ScreenScanView.g.cs", "x64_2_release_2_screen_scan_view_8g_8cs.html", "x64_2_release_2_screen_scan_view_8g_8cs" ],
+    [ "SettingsWindow.g.cs", "x64_2_release_2_settings_window_8g_8cs.html", "x64_2_release_2_settings_window_8g_8cs" ]
+];

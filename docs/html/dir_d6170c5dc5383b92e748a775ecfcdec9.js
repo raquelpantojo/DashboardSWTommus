@@ -1,0 +1,26 @@
+var dir_d6170c5dc5383b92e748a775ecfcdec9 =
+[
+    [ ".NETFramework,Version=v4.7.2.AssemblyAttributes.cs", "x64_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.html", null ],
+    [ "AnimatedProbeIcon.g.cs", "x64_2_debug_2_animated_probe_icon_8g_8cs.html", "x64_2_debug_2_animated_probe_icon_8g_8cs" ],
+    [ "AnimatedProbeIcon.g.i.cs", "_animated_probe_icon_8g_8i_8cs.html", "_animated_probe_icon_8g_8i_8cs" ],
+    [ "AnnotationWindow.g.cs", "x64_2_debug_2_annotation_window_8g_8cs.html", "x64_2_debug_2_annotation_window_8g_8cs" ],
+    [ "AnnotationWindow.g.i.cs", "_annotation_window_8g_8i_8cs.html", "_annotation_window_8g_8i_8cs" ],
+    [ "App.g.cs", "x64_2_debug_2_app_8g_8cs.html", "x64_2_debug_2_app_8g_8cs" ],
+    [ "App.g.i.cs", "_app_8g_8i_8cs.html", "_app_8g_8i_8cs" ],
+    [ "b_mode_Content.g.cs", "x64_2_debug_2b__mode___content_8g_8cs.html", null ],
+    [ "b_mode_Content.g.i.cs", "b__mode___content_8g_8i_8cs.html", null ],
+    [ "GeneratedInternalTypeHelper.g.cs", "x64_2_debug_2_generated_internal_type_helper_8g_8cs.html", null ],
+    [ "GeneratedInternalTypeHelper.g.i.cs", "_generated_internal_type_helper_8g_8i_8cs.html", "_generated_internal_type_helper_8g_8i_8cs" ],
+    [ "LateralidadeDialog.g.cs", "x64_2_debug_2_lateralidade_dialog_8g_8cs.html", "x64_2_debug_2_lateralidade_dialog_8g_8cs" ],
+    [ "LateralidadeDialog.g.i.cs", "_lateralidade_dialog_8g_8i_8cs.html", "_lateralidade_dialog_8g_8i_8cs" ],
+    [ "LoginWindow.g.cs", "x64_2_debug_2_login_window_8g_8cs.html", "x64_2_debug_2_login_window_8g_8cs" ],
+    [ "LoginWindow.g.i.cs", "_login_window_8g_8i_8cs.html", "_login_window_8g_8i_8cs" ],
+    [ "MainWindow.g.cs", "x64_2_debug_2_main_window_8g_8cs.html", "x64_2_debug_2_main_window_8g_8cs" ],
+    [ "MainWindow.g.i.cs", "_main_window_8g_8i_8cs.html", "_main_window_8g_8i_8cs" ],
+    [ "PresetNameDialog.g.cs", "x64_2_debug_2_preset_name_dialog_8g_8cs.html", "x64_2_debug_2_preset_name_dialog_8g_8cs" ],
+    [ "PresetNameDialog.g.i.cs", "_preset_name_dialog_8g_8i_8cs.html", "_preset_name_dialog_8g_8i_8cs" ],
+    [ "ScreenScanView.g.cs", "x64_2_debug_2_screen_scan_view_8g_8cs.html", "x64_2_debug_2_screen_scan_view_8g_8cs" ],
+    [ "ScreenScanView.g.i.cs", "_screen_scan_view_8g_8i_8cs.html", "_screen_scan_view_8g_8i_8cs" ],
+    [ "SettingsWindow.g.cs", "x64_2_debug_2_settings_window_8g_8cs.html", "x64_2_debug_2_settings_window_8g_8cs" ],
+    [ "SettingsWindow.g.i.cs", "_settings_window_8g_8i_8cs.html", "_settings_window_8g_8i_8cs" ]
+];
