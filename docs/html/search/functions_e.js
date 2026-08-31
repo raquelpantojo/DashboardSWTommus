@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['rbdireita_5fchecked_0',['rbDireita_Checked',['../classb__mode_1_1_screen_scan_view.html#a9c0e8ad04882974fe3f9ee2cbdd183a4',1,'b_mode::ScreenScanView']]],
+  ['readparameteracquisition_1',['ReadParameterAcquisition',['../classb__mode_1_1_settings_window.html#abf59b29c5e7120b1621fbd4db6a56cc1',1,'b_mode::SettingsWindow']]],
+  ['realcerange_5fchanged_2',['RealceRange_Changed',['../classb__mode_1_1_screen_scan_view.html#a07f1d1181ec864f85b2c6f0a8dcb879d',1,'b_mode::ScreenScanView']]],
+  ['reconstruirvolumeunicoasync_5fjson_3',['ReconstruirVolumeUnicoAsync_json',['../classb__mode_1_1_main_window.html#aaecee93d11a03ca794ed0e0db954f855',1,'b_mode::MainWindow']]],
+  ['redrawallannotations_4',['RedrawAllAnnotations',['../classb__mode_1_1_annotation_window.html#a62c4bd90e6d28f82ddca3b1e506d354d',1,'b_mode::AnnotationWindow']]],
+  ['refreshlocalizedlabels_5',['RefreshLocalizedLabels',['../classb__mode_1_1_main_window.html#a4ec8c9dd688c58b838a7dbb834cfa70f',1,'b_mode::MainWindow']]],
+  ['refreshports_6',['RefreshPorts',['../classb__mode_1_1_settings_window.html#a8b101b5bfa7d9e948ba5bc6ac020426b',1,'b_mode.SettingsWindow.RefreshPorts()'],['../classb__mode_1_1_settings_window.html#a8b101b5bfa7d9e948ba5bc6ac020426b',1,'b_mode.SettingsWindow.RefreshPorts()']]],
+  ['refreshports_5fclick_7',['RefreshPorts_Click',['../classb__mode_1_1_settings_window.html#a70c779194164c3a477f798ff85c44e0e',1,'b_mode.SettingsWindow.RefreshPorts_Click(object sender, RoutedEventArgs e)'],['../classb__mode_1_1_settings_window.html#a70c779194164c3a477f798ff85c44e0e',1,'b_mode.SettingsWindow.RefreshPorts_Click(object sender, RoutedEventArgs e)']]],
+  ['refreshreconfields_8',['RefreshReconFields',['../classb__mode_1_1_settings_window.html#a1e5b08fe8f2da86248443802b8f74fcb',1,'b_mode::SettingsWindow']]],
+  ['relaycommand_9',['RelayCommand',['../classb__mode_1_1_relay_command.html#a039604e1debe2e0a0acf1edaf5b5d766',1,'b_mode::RelayCommand']]],
+  ['releaseusgcontrol_10',['ReleaseUsgControl',['../classb__mode_1_1_main_window.html#ac54f61b81d67d10560ccb25433615ff2',1,'b_mode::MainWindow']]],
+  ['releaseusgcontrols_11',['ReleaseUsgControls',['../classb__mode_1_1_main_window.html#a6d961a61260cca6a71657fb7805e9b0b',1,'b_mode::MainWindow']]],
+  ['renderfocusoverlay_12',['RenderFocusOverlay',['../classb__mode_1_1_main_window.html#a597cce78a945af0706f124d147bfeeef',1,'b_mode::MainWindow']]],
+  ['renderizarcorteafetado_13',['RenderizarCorteAfetado',['../classb__mode_1_1_screen_scan_view.html#a19968c30211a041d8f6a3662bbf410d3',1,'b_mode::ScreenScanView']]],
+  ['renderizartodoscortes_14',['RenderizarTodosCortes',['../classb__mode_1_1_screen_scan_view.html#aaf00ca64cdb40b81c53db52fab274333',1,'b_mode::ScreenScanView']]],
+  ['renderizarvolume3d_15',['RenderizarVolume3D',['../classb__mode_1_1_screen_scan_view.html#a311050605e383c0b698ce7820b7d8d3e',1,'b_mode::ScreenScanView']]],
+  ['renderwindowcontrol_5fload_16',['RenderWindowControl_Load',['../classb__mode_1_1_screen_scan_view.html#a17596129e7b3dc2be09634c353cbfe14',1,'b_mode::ScreenScanView']]],
+  ['resetfullscreenicons_17',['ResetFullscreenIcons',['../classb__mode_1_1_screen_scan_view.html#ad13dfc83eb915cbc7641b23e24bba72b',1,'b_mode::ScreenScanView']]],
+  ['resetlayout_18',['ResetLayout',['../classb__mode_1_1_r_f_callback.html#afd67144cc38c73087333ab54ab371ff7',1,'b_mode::RFCallback']]],
+  ['resetpanellayout_19',['ResetPanelLayout',['../classb__mode_1_1_screen_scan_view.html#a57b1660206b1dc649a6c2a3db7410ea6',1,'b_mode::ScreenScanView']]],
+  ['restartartusdevice_20',['RestartArtUsDevice',['../classb__mode_1_1_main_window.html#a9f4d8d07e73ac5eb2b81e6ce5b62c5dd',1,'b_mode::MainWindow']]],
+  ['rfcallback_21',['RFCallback',['../classb__mode_1_1_r_f_callback.html#a352872b44c0e11046adc3b25d15a9e41',1,'b_mode::RFCallback']]],
+  ['rotateimage_22',['RotateImage',['../classb__mode_1_1_main_window.html#ae998a5e38112826a2527afd6649469ca',1,'b_mode::MainWindow']]],
+  ['runscanning_23',['RunScanning',['../classb__mode_1_1_main_window.html#aec6c09d22a2dad9d15b72e08a76b86c0',1,'b_mode::MainWindow']]]
+];

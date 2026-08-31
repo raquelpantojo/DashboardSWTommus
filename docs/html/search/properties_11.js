@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['terminaltext_0',['TerminalText',['../classb__mode_1_1_main_view_model.html#a6f10516d5bdd82db657c18a8832399fb',1,'b_mode::MainViewModel']]],
+  ['text_1',['Text',['../classb__mode_1_1_annotation_window_1_1_annotation_item.html#ac43164ee7cc1ce73274e2346eeee5e45',1,'b_mode::AnnotationWindow::AnnotationItem']]],
+  ['textnewpreset_2',['TextNewPreset',['../classb__mode_1_1_properties_1_1_resources.html#ae2ab1d193903d26f5b46a386ef57a14b',1,'b_mode::Properties::Resources']]],
+  ['tgcvalues_3',['TgcValues',['../classb__mode_1_1_user_preset.html#a91743e79b793013466ca0a53713a0a84',1,'b_mode::UserPreset']]],
+  ['threshold_4',['Threshold',['../classb__mode_1_1_screen_scan_view_1_1_preset3_d.html#a417033c53ddc4f3a6197fbd9d30aca43',1,'b_mode::ScreenScanView::Preset3D']]],
+  ['thresholdbottomspace_5',['ThresholdBottomSpace',['../classb__mode_1_1_main_view_model.html#a01c8afe7390ad51f31afc87bc1ac4205',1,'b_mode::MainViewModel']]],
+  ['thresholdtopspace_6',['ThresholdTopSpace',['../classb__mode_1_1_main_view_model.html#adaa16ab7dab2442999a1400ac535836f',1,'b_mode::MainViewModel']]],
+  ['thumb3dfake_7',['Thumb3DFake',['../classb__mode_1_1_main_window.html#aefed7ac5c8a93f812c4dc8a3244ce604',1,'b_mode::MainWindow']]],
+  ['timestamp_8',['Timestamp',['../classb__mode_1_1_patient_app_state.html#aefb9beca0e105393877b415979beb2dd',1,'b_mode::PatientAppState']]],
+  ['tipo_5faquisicao_5fscan_9',['tipo_aquisicao_scan',['../classb__mode_1_1_scan_exam_info.html#aafe7c0175345d519d5d46e37d7f35381',1,'b_mode::ScanExamInfo']]],
+  ['title_10',['Title',['../classb__mode_1_1_main_view_model_1_1_scan_step_progress.html#ae412b3dd1e504bbf8924e9b80ee32093',1,'b_mode::MainViewModel::ScanStepProgress']]],
+  ['titleselectlaterality_11',['TitleSelectLaterality',['../classb__mode_1_1_properties_1_1_resources.html#a4f21398a4fc4bf49d33b7f1af39da3db',1,'b_mode::Properties::Resources']]],
+  ['togglefreezeruncommand_12',['ToggleFreezeRunCommand',['../classb__mode_1_1_main_view_model.html#a0a39bbe3cc944b87c9b0265b74b29a7c',1,'b_mode::MainViewModel']]],
+  ['transducerpitchmm_13',['TransducerPitchMm',['../classb__mode_1_1_parameters_acquisition.html#adaf5c19a0451a889eae8a00a3b5927d2',1,'b_mode::ParametersAcquisition']]],
+  ['transducerwidthmm_14',['TransducerWidthMm',['../classb__mode_1_1_parameters_acquisition.html#a48488ae5bb4c548ffbd3430ae33e52bf',1,'b_mode::ParametersAcquisition']]],
+  ['transdutor_5flargura_5fmm_15',['transdutor_largura_mm',['../classb__mode_1_1_scan_exam_info.html#a25ebff25e014cd22dad7ff893cc09811',1,'b_mode::ScanExamInfo']]],
+  ['type_16',['Type',['../classb__mode_1_1_annotation_window_1_1_annotation_item.html#ac8bd28d17590f8158eaa8d740769c736',1,'b_mode::AnnotationWindow::AnnotationItem']]]
+];

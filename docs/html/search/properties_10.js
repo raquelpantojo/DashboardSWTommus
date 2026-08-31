@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['samplesperbeam_0',['SamplesPerBeam',['../classb__mode_1_1_r_f_callback.html#a5c160440a97d6e8ceae9d43eee5fe30b',1,'b_mode::RFCallback']]],
+  ['savepatientcommand_1',['SavePatientCommand',['../classb__mode_1_1_main_view_model.html#a0e61979f2f343dffb64a4426fd0f059c',1,'b_mode::MainViewModel']]],
+  ['saveprogress_2',['SaveProgress',['../classb__mode_1_1_main_view_model.html#a09b215dc89ff3d28c05788e4ed65c99d',1,'b_mode::MainViewModel']]],
+  ['savestatus_3',['SaveStatus',['../classb__mode_1_1_main_view_model.html#ab0eb1a7c21490acee9f384dab834e3f0',1,'b_mode::MainViewModel']]],
+  ['savetext_4',['SaveText',['../classb__mode_1_1_main_view_model_1_1_scan_step_progress.html#a615ff578008548938b93d7a3acdcf35e',1,'b_mode::MainViewModel::ScanStepProgress']]],
+  ['savevalue_5',['SaveValue',['../classb__mode_1_1_main_view_model_1_1_scan_step_progress.html#a5edf7b96bdefde0ab7cd9547af49dcfb',1,'b_mode::MainViewModel::ScanStepProgress']]],
+  ['scansteps_6',['ScanSteps',['../classb__mode_1_1_main_view_model.html#a477013900cea3835973efda466f7524c',1,'b_mode::MainViewModel']]],
+  ['secao_7',['secao',['../classb__mode_1_1_scan_secction_info.html#a2fa629fc97c6ecaf8d4ff24f74f8a189',1,'b_mode::ScanSecctionInfo']]],
+  ['secoes_8',['secoes',['../classb__mode_1_1_scan_exam_info.html#ad54ee6009f2cd1aa9b6ab1d146dd5205',1,'b_mode::ScanExamInfo']]],
+  ['sectionoverlap_9',['SectionOverlap',['../classb__mode_1_1_parameters_acquisition.html#a6566c2397852fe979cef36932d0d731d',1,'b_mode::ParametersAcquisition']]],
+  ['selectedlanguage_10',['SelectedLanguage',['../classb__mode_1_1_settings_window.html#a372452a6eecd26114250fa6d9cd82a3a',1,'b_mode::SettingsWindow']]],
+  ['selectedport_11',['SelectedPort',['../classb__mode_1_1_settings_window.html#a155836d2dc4a6568a4442ccaa829960e',1,'b_mode::SettingsWindow']]],
+  ['sentido_5frotacao_12',['sentido_rotacao',['../classb__mode_1_1_scan_secction_info.html#abf3878ebf1fab991e09051998e33bec7',1,'b_mode::ScanSecctionInfo']]],
+  ['sentido_5fscan_5flinear_13',['sentido_scan_linear',['../classb__mode_1_1_scan_secction_info.html#aaa0745e21aa9a136f48fb88ac17f1bc8',1,'b_mode::ScanSecctionInfo']]],
+  ['settingsselectfolderdescription_14',['SettingsSelectFolderDescription',['../classb__mode_1_1_properties_1_1_resources.html#af001ae1c7d6750d79062c50acc26d196',1,'b_mode::Properties::Resources']]],
+  ['shift_15',['Shift',['../classb__mode_1_1_screen_scan_view_1_1_preset3_d.html#a8061c7bd874cf9c268c76b98d2da01aa',1,'b_mode::ScreenScanView::Preset3D']]],
+  ['start_16',['Start',['../classb__mode_1_1_annotation_window_1_1_annotation_item.html#af156660c077c04b92d4b0938180aecb6',1,'b_mode::AnnotationWindow::AnnotationItem']]],
+  ['start_5fwindow_5frf_17',['start_window_rf',['../classb__mode_1_1_scan_secction_info.html#a2f1144e2ae362ea23938ee44a80a07a6',1,'b_mode::ScanSecctionInfo']]],
+  ['startwindowrf_18',['StartWindowRF',['../classb__mode_1_1_parameters_acquisition.html#aa8bdc609346282c48c60966852b61663',1,'b_mode::ParametersAcquisition']]],
+  ['statusfrozen_19',['StatusFrozen',['../classb__mode_1_1_properties_1_1_resources.html#af768bcd8abd252028d68b55d391d14ae',1,'b_mode::Properties::Resources']]],
+  ['statusready_20',['statusReady',['../classb__mode_1_1_properties_1_1_resources.html#a6553447b943db575cafd1d1a3c9c5a02',1,'b_mode::Properties::Resources']]],
+  ['statusrunning_21',['StatusRunning',['../classb__mode_1_1_properties_1_1_resources.html#afade8e81b80569b6413e1b42c6896be6',1,'b_mode::Properties::Resources']]],
+  ['statustext_22',['StatusText',['../classb__mode_1_1_main_view_model_1_1_scan_step_progress.html#afe03cdf2506129455e22059d6de9b0aa',1,'b_mode.MainViewModel.ScanStepProgress.StatusText'],['../classb__mode_1_1_main_view_model.html#a3293afb73a9d330f5febe6ff9f0501db',1,'b_mode.MainViewModel.StatusText']]],
+  ['steeringangle_23',['SteeringAngle',['../classb__mode_1_1_user_preset.html#a176062b06cce6cbe03801924537d803f',1,'b_mode::UserPreset']]],
+  ['sus_24',['SUS',['../classb__mode_1_1_main_view_model.html#ab6d70b00b902a39feeafba03aef8a0fa',1,'b_mode.MainViewModel.SUS'],['../classb__mode_1_1_patient_app_state.html#a4be00a3d438c3f1e41342784459a7231',1,'b_mode.PatientAppState.SUS']]]
+];

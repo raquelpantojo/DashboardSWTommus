@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['patientfolder_0',['PatientFolder',['../classb__mode_1_1_patient_app_state.html#a51a843cbe71e5e1a71820b38aeef02de',1,'b_mode::PatientAppState']]],
+  ['patientid_1',['PatientId',['../classb__mode_1_1_main_view_model.html#af7b48fe8f8b13ccf298776e38cd98b98',1,'b_mode.MainViewModel.PatientId'],['../classb__mode_1_1_patient_app_state.html#a6b466584f1ac31b9479b3346e9c5d30f',1,'b_mode.PatientAppState.PatientId']]],
+  ['patientimages_2',['PatientImages',['../classb__mode_1_1_main_view_model.html#a40580dc3a011037e2c7bf88582a038d9',1,'b_mode::MainViewModel']]],
+  ['patientname_3',['PatientName',['../classb__mode_1_1_main_view_model.html#a8ca0a7d1d630fc2f2a03682454fb7e36',1,'b_mode.MainViewModel.PatientName'],['../classb__mode_1_1_patient_app_state.html#a60b931c93913650f8b4835baabe978a9',1,'b_mode.PatientAppState.PatientName']]],
+  ['patientsbasefolder_4',['PatientsBaseFolder',['../classb__mode_1_1_settings_window.html#a37a10ecb201cfc23f1de28ba7cb03c11',1,'b_mode::SettingsWindow']]],
+  ['patientspath_5',['PatientsPath',['../classb__mode_1_1_settings_window.html#ac047b7ea8419c79a49e659977d9d42a6',1,'b_mode::SettingsWindow']]],
+  ['patientstatus_6',['PatientStatus',['../classb__mode_1_1_main_view_model.html#a34b3d5064744676709c8e854324258e0',1,'b_mode.MainViewModel.PatientStatus'],['../classb__mode_1_1_patient_app_state.html#ad77f836e784d982d1125568b12a42a78',1,'b_mode.PatientAppState.PatientStatus']]],
+  ['pitch_7',['Pitch',['../classb__mode_1_1_screen_scan_view_1_1_badge_info.html#afe6e4b6821cedd146bfc731305f183a0',1,'b_mode::ScreenScanView::BadgeInfo']]],
+  ['pitch_8',['pitch',['../classb__mode_1_1_scan_exam_info.html#a89ea7b09fda58f235fdd88a1f3e48b00',1,'b_mode::ScanExamInfo']]],
+  ['pitchbytes_9',['PitchBytes',['../classb__mode_1_1_r_f_callback.html#a50dc9965c14afd6917cb3df0808829d7',1,'b_mode::RFCallback']]],
+  ['posicao_5fvertical_5fmm_10',['posicao_vertical_mm',['../classb__mode_1_1_scan_secction_info.html#a5637a96e1cace019d67f7d7d6bdef364',1,'b_mode::ScanSecctionInfo']]],
+  ['presetname_11',['PresetName',['../classb__mode_1_1_preset_name_dialog.html#a0c2ae5b6e89e5051cb969e53217114c4',1,'b_mode::PresetNameDialog']]],
+  ['presetnamelabel_12',['PresetNameLabel',['../classb__mode_1_1_properties_1_1_resources.html#a3c0537bbac3c6abf54bb3c606b6d70e0',1,'b_mode::Properties::Resources']]],
+  ['presets_13',['Presets',['../classb__mode_1_1_main_view_model.html#a0258fa6ef368523474383b44c5270dfc',1,'b_mode::MainViewModel']]],
+  ['prioritybottomspace_14',['PriorityBottomSpace',['../classb__mode_1_1_main_view_model.html#add30e39b29a772bff8aa260167b4521c',1,'b_mode::MainViewModel']]],
+  ['prioritytopspace_15',['PriorityTopSpace',['../classb__mode_1_1_main_view_model.html#ab558eb096916bc7abe71cfad37d8a540',1,'b_mode::MainViewModel']]],
+  ['probename_16',['ProbeName',['../classb__mode_1_1_main_view_model.html#ac468ab96725f4f68f8b85443d9e0d66b',1,'b_mode.MainViewModel.ProbeName'],['../classb__mode_1_1_parameters_acquisition.html#afbafc4019f8987923e7f9e42a9111f64',1,'b_mode.ParametersAcquisition.ProbeName']]],
+  ['probestatus_17',['ProbeStatus',['../classb__mode_1_1_main_view_model.html#af3d9de360f3f62dfb6a16de001ec9398',1,'b_mode::MainViewModel']]],
+  ['probestatusbrush_18',['ProbeStatusBrush',['../classb__mode_1_1_main_view_model.html#affb60ede4a368b68a34ca763a19d5943',1,'b_mode::MainViewModel']]],
+  ['processprogress_19',['ProcessProgress',['../classb__mode_1_1_main_view_model.html#ad04fd58238a1f03503b701a58be8036d',1,'b_mode::MainViewModel']]],
+  ['processstatus_20',['ProcessStatus',['../classb__mode_1_1_main_view_model.html#a5d7ca6b311bd7f33bb66b7726aad943d',1,'b_mode::MainViewModel']]]
+];

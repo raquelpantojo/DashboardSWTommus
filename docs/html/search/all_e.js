@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['n_5felementos_0',['n_elementos',['../classb__mode_1_1_scan_exam_info.html#adcee80cd29fb7f6861ac2325a3f37e83',1,'b_mode::ScanExamInfo']]],
+  ['name_1',['Name',['../classb__mode_1_1_user_preset.html#a87214ca309e987b6cdb390a9ae5fc0f7',1,'b_mode::UserPreset']]],
+  ['nelementos_2',['NElementos',['../classb__mode_1_1_parameters_acquisition.html#a2865c8e384e4ed86066de411b3c14f67',1,'b_mode::ParametersAcquisition']]],
+  ['newpatientcommand_3',['NewPatientCommand',['../classb__mode_1_1_main_view_model.html#a7d90d1c862ec60dbe521b811cdcb2941',1,'b_mode::MainViewModel']]],
+  ['nextdepth_4',['NextDepth',['../classb__mode_1_1_main_window.html#a7222acc15e94fdf67f9e0143db99b4d5',1,'b_mode::MainWindow']]],
+  ['nextdynamicrange_5',['NextDynamicRange',['../classb__mode_1_1_main_window.html#a4603ececa0be6ecdd9ee88e73f69a23e',1,'b_mode::MainWindow']]],
+  ['nextfocus_6',['NextFocus',['../classb__mode_1_1_main_window.html#ae2fa06597bab0ddc92c067d419138518',1,'b_mode::MainWindow']]],
+  ['nextfrequency_7',['NextFrequency',['../classb__mode_1_1_main_window.html#a75729f17650f906bad8ff8d347894ec8',1,'b_mode::MainWindow']]],
+  ['nextfrequencydoppler_8',['NextFrequencyDoppler',['../classb__mode_1_1_main_window.html#a890193937da079da0462f8b0f4ca4528',1,'b_mode::MainWindow']]],
+  ['nextprfdoppler_9',['NextPRFDoppler',['../classb__mode_1_1_main_window.html#aeb60bc70747c807a480566b5aed70b9f',1,'b_mode::MainWindow']]],
+  ['nextsteeringangle_10',['NextSteeringAngle',['../classb__mode_1_1_main_window.html#ae52e12c766ce7783921969f2c781e73c',1,'b_mode::MainWindow']]],
+  ['nextwallfilter_5fclick_11',['NextWallFilter_Click',['../classb__mode_1_1_main_window.html#a358e3cd0ae98a12a85becdb8b8becb53',1,'b_mode::MainWindow']]],
+  ['nome_5fprobe_12',['nome_probe',['../classb__mode_1_1_scan_exam_info.html#a5bde3d5305f304eb7c86d8ab9c6d281a',1,'b_mode::ScanExamInfo']]],
+  ['nomepaciente_13',['NomePaciente',['../classb__mode_1_1_screen_scan_view_1_1_badge_info.html#a0b26d68feb19746fb17763b4a8b3a5b5',1,'b_mode::ScreenScanView::BadgeInfo']]],
+  ['nomepaciente_14',['nomePaciente',['../classb__mode_1_1_screen_scan_view.html#aec7fc052510ad8de42dea345aacdfc0c',1,'b_mode::ScreenScanView']]],
+  ['nopatientloaded_15',['NoPatientLoaded',['../classb__mode_1_1_properties_1_1_resources.html#a7d5501894ca84e0103db2d71b9dfe12f',1,'b_mode::Properties::Resources']]],
+  ['numacquisitionslinear_16',['NumAcquisitionsLinear',['../classb__mode_1_1_parameters_acquisition.html#aa98e687fb959311c0c2ebf2c05c4b1ed',1,'b_mode::ParametersAcquisition']]],
+  ['numacquisitionsrot_17',['NumAcquisitionsRot',['../classb__mode_1_1_parameters_acquisition.html#a8c54c6a6e4016c3800fe0a3acfd531b4',1,'b_mode::ParametersAcquisition']]],
+  ['numero_5fde_5fsecoes_18',['numero_de_secoes',['../classb__mode_1_1_scan_exam_info.html#a8a13fdf771a61c6642eb1cc2cc23f3fe',1,'b_mode::ScanExamInfo']]]
+];

@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['falha_0',['Falha',['../classb__mode_1_1_settings_window.html#acb9b500597c2c2bbfbbc68a8259b703b',1,'b_mode::SettingsWindow']]],
+  ['filename_1',['FileName',['../classb__mode_1_1_patient_image.html#a092ad724067acf76629028e2a9b5c887',1,'b_mode::PatientImage']]],
+  ['filepath_2',['FilePath',['../classb__mode_1_1_patient_image.html#a470d7ab6038b2c64f5f18083be515012',1,'b_mode::PatientImage']]],
+  ['finalizedrawing_3',['FinalizeDrawing',['../classb__mode_1_1_annotation_window.html#a56068713ad15dc9f4279f8a77986b893',1,'b_mode::AnnotationWindow']]],
+  ['fitscale_4',['FitScale',['../classb__mode_1_1_screen_scan_view.html#a297148355a55b2a1815bfe62bdcb1a88',1,'b_mode::ScreenScanView']]],
+  ['focaldepth_5',['FocalDepth',['../classb__mode_1_1_user_preset.html#aede368f40edba6557e67e7dd59269098',1,'b_mode::UserPreset']]],
+  ['focus_5fctrl_6',['focus_ctrl',['../classb__mode_1_1_main_window.html#ab1a953ff6118a61a0e31aaf0821c64da',1,'b_mode::MainWindow']]],
+  ['focusupdategui_7',['FocusUpdateGUI',['../classb__mode_1_1_main_window.html#a114acef7a89bae2e9cd3f2cfc308ff51',1,'b_mode::MainWindow']]],
+  ['forcarrender_8',['ForcarRender',['../classb__mode_1_1_main_window.html#aa99201e7e98b036d6b27123e64eb8c9d',1,'b_mode::MainWindow']]],
+  ['forcestop_9',['ForceStop',['../classb__mode_1_1_r_f_callback.html#aa00698c04e8a4cbfdfadf0b523a68e9e',1,'b_mode::RFCallback']]],
+  ['formscursor_10',['FormsCursor',['../_main_window_8xaml_8cs.html#a42651d45762dfb5a9d5534e8cae73bf5',1,'MainWindow.xaml.cs']]],
+  ['frames_5fadquiridos_11',['frames_adquiridos',['../classb__mode_1_1_scan_secction_info.html#abcddc83e00df59173469efd32ab88858',1,'b_mode::ScanSecctionInfo']]],
+  ['frames_5fpor_5fsecao_12',['frames_por_secao',['../classb__mode_1_1_scan_exam_info.html#a4712e5bae94eced7155745e1c8795a80',1,'b_mode::ScanExamInfo']]],
+  ['framescaptured_13',['FramesCaptured',['../classb__mode_1_1_r_f_callback.html#a0da7eb4130c9fe6637afa4a7ef727842',1,'b_mode::RFCallback']]],
+  ['freezeruntext_14',['FreezeRunText',['../classb__mode_1_1_main_view_model.html#a759fb9211fb11d522d2dd9d10c250c8e',1,'b_mode::MainViewModel']]],
+  ['freezescanning_15',['FreezeScanning',['../classb__mode_1_1_main_window.html#ab77e3ac5cbc8ea14b96d34382c183b3f',1,'b_mode::MainWindow']]],
+  ['frequencia_16',['Frequencia',['../classb__mode_1_1_screen_scan_view_1_1_badge_info.html#a7e9ee01faaa64fda77c4a0a92c3bae21',1,'b_mode::ScreenScanView::BadgeInfo']]],
+  ['frequencia_5fus_5fmhz_17',['frequencia_us_mhz',['../classb__mode_1_1_scan_exam_info.html#afde6a6b67a1f812b0b11caf3313019a8',1,'b_mode::ScanExamInfo']]],
+  ['frequency_18',['Frequency',['../classb__mode_1_1_user_preset.html#af03372aada990af5f9d500010a5188f8',1,'b_mode::UserPreset']]],
+  ['frequency_5fctrl_19',['frequency_ctrl',['../classb__mode_1_1_main_window.html#ab4ce36260c66ff7223f32ce2c93851d5',1,'b_mode::MainWindow']]],
+  ['frequencydopplerupdategui_20',['FrequencyDopplerUpdateGUI',['../classb__mode_1_1_main_window.html#ac687137037d3ac6d1f0eba12b8b337b0',1,'b_mode::MainWindow']]],
+  ['frequencyupdategui_21',['FrequencyUpdateGUI',['../classb__mode_1_1_main_window.html#adf6c3f31b3cfd36b3ba79ce88d62f5ae',1,'b_mode::MainWindow']]],
+  ['fullreleaseusgcontrols_22',['FullReleaseUsgControls',['../classb__mode_1_1_main_window.html#a5bcd6ad5ebeeb2332f34238f3eb1b005',1,'b_mode::MainWindow']]]
+];

@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['idpaciente_0',['IdPaciente',['../classb__mode_1_1_screen_scan_view_1_1_badge_info.html#a61fd1f978253294d30e240a429f2692d',1,'b_mode::ScreenScanView::BadgeInfo']]],
+  ['imageheight_1',['ImageHeight',['../classb__mode_1_1_patient_image.html#a1ea9123909659877fd0e40a2f3ba5944',1,'b_mode::PatientImage']]],
+  ['imagesource_2',['ImageSource',['../classb__mode_1_1_patient_image.html#aa652840400e29b1cf26e81e479114caf',1,'b_mode::PatientImage']]],
+  ['imagewidth_3',['ImageWidth',['../classb__mode_1_1_patient_image.html#aa6df6528962e7c69f73225042c76f734',1,'b_mode::PatientImage']]],
+  ['is3d_4',['Is3D',['../classb__mode_1_1_patient_image.html#a0a3d3794b7f5b181888d70edb27cdebf',1,'b_mode::PatientImage']]],
+  ['isdopplerimplemented_5',['IsDopplerImplemented',['../classb__mode_1_1_main_view_model.html#ad03846f37326456c962f8c57bb6e5437',1,'b_mode::MainViewModel']]],
+  ['isespconnected_6',['IsEspConnected',['../classb__mode_1_1_main_view_model.html#aac6b524c3d619245254b5c628cdcaa88',1,'b_mode::MainViewModel']]],
+  ['isfinished_7',['IsFinished',['../classb__mode_1_1_r_f_callback.html#a72bdbd828929548e78ab041f2684c07c',1,'b_mode::RFCallback']]],
+  ['isfrozen_8',['IsFrozen',['../classb__mode_1_1_main_view_model.html#a75a235ec91fbee559d6a5844c6befd4a',1,'b_mode::MainViewModel']]],
+  ['isindeterminate_9',['IsIndeterminate',['../classb__mode_1_1_main_view_model_1_1_scan_step_progress.html#a40cac90aee33277ebc8d3b9abefa62fb',1,'b_mode::MainViewModel::ScanStepProgress']]],
+  ['islinear_10',['IsLinear',['../classb__mode_1_1_screen_scan_view.html#a2c14014e5c943d8858830b27e94631b6',1,'b_mode::ScreenScanView']]],
+  ['ispatientdataenabled_11',['IsPatientDataEnabled',['../classb__mode_1_1_main_view_model.html#a6c911f253431024564308d4ec3671ee9',1,'b_mode::MainViewModel']]],
+  ['ispatientdatareadonly_12',['IsPatientDataReadOnly',['../classb__mode_1_1_main_view_model.html#a0a92d5d5f3aff66dc1b1eecb03bb06b7',1,'b_mode::MainViewModel']]],
+  ['isprocessindeterminate_13',['IsProcessIndeterminate',['../classb__mode_1_1_main_view_model.html#a10ecfe945c82a8977faca9be1ba98a02',1,'b_mode::MainViewModel']]],
+  ['isreadonly_14',['IsReadOnly',['../classb__mode_1_1_patient_app_state.html#aa1eb5b140ec5d415515c5f5f2cd8d92d',1,'b_mode::PatientAppState']]],
+  ['isrotationalmode_15',['IsRotationalMode',['../classb__mode_1_1_main_window.html#a2058bcbb4809e9b11fd531465563f051',1,'b_mode::MainWindow']]],
+  ['issaving_16',['IsSaving',['../classb__mode_1_1_main_view_model_1_1_scan_step_progress.html#a8c4c3fe83accc16ab4ed3d9bb7e7f122',1,'b_mode::MainViewModel::ScanStepProgress']]],
+  ['isscanning_17',['IsScanning',['../classb__mode_1_1_main_view_model.html#a47ab5522747d9dadae005a97115add5d',1,'b_mode::MainViewModel']]],
+  ['isselected_18',['IsSelected',['../classb__mode_1_1_patient_image.html#ad3d50fa2a35099b367769eb5c75571ae',1,'b_mode::PatientImage']]],
+  ['istriggermode_19',['IsTriggerMode',['../classb__mode_1_1_patient_app_state.html#a0fc4f7b1b5ae6d4fde71aea8890a560b',1,'b_mode::PatientAppState']]]
+];
